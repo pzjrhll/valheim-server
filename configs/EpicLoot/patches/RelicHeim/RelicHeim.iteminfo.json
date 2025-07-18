@@ -1,0 +1,47 @@
+{
+  "TargetFile": "iteminfo.json",
+  "Author": "Majestic",
+  "RequireAll": true,
+  "Patches": [
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Staffs')].Items",
+      "Action": "AppendAll",
+      "Value": []
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Staffs')].ItemsByBoss.defeated_eikthyr",
+      "Action": "AppendAll",
+      "Value": [ ]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Staffs')].ItemsByBoss.defeated_gdking",
+      "Action": "AppendAll",
+      "Value": []
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Staffs')].ItemsByBoss.defeated_bonemass",
+      "Action": "AppendAll",
+      "Value": []
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Staffs')].ItemsByBoss.defeated_dragon",
+      "Action": "AppendAll",
+      "Value": []
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Staffs')].ItemsByBoss.defeated_goblinking",
+      "Action": "AppendAll",
+      "Value": []
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Staffs')].ItemsByBoss.defeated_queen",
+      "Action": "AppendAll",
+      "Value": []
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Staffs')].ItemsByBoss.defeated_fader",
+      "Action": "AppendAll",
+      "Value": []
+    }
+  ]
+}

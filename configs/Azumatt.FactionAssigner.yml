@@ -1,14 +1,14 @@
-Abomination: Undead
-Troll: ForestMonsters
-StoneGolem: MountainMonsters
-Lox: PlainsMonsters
-Skeleton_Poison: Undead
+Abomination: Boss
+Troll: Boss
+StoneGolem: Boss
+Lox: Boss
+Skeleton_Poison: Boss
 BlobTar: Boss
-Hatchling: MountainMonsters
-GoblinBrute: PlainsMonsters
+Hatchling: Boss
+GoblinBrute: Boss
 Serpent: Boss
 # Monstrum:
-ObsidianGolem_TW: MountainMonsters
+ObsidianGolem_TW: Boss
 Shark_TW: Boss
 # Monstrum_DeepNorth
 ArcticBear_TW: Boss
@@ -25,10 +25,10 @@ JotunnShaman_TW: Boss
 JotunnWolf_TW: Boss
 StormWolf_TW: Boss
 # Wizardry:
-GreydwarfMage_TW: ForestMonsters
-SkeletonMage_TW: Undead
-FenringMage_TW: MountainMonsters
-GoblinMage_TW: PlainsMonsters
+GreydwarfMage_TW: Boss
+SkeletonMage_TW: Boss
+FenringMage_TW: Boss
+GoblinMage_TW: Boss
 CorruptedDvergerMage_TW: Boss
 SummonedSeeker_TW: Boss
 

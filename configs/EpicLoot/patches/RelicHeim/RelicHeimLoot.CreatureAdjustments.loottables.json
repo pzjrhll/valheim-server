@@ -1,0 +1,456 @@
+{
+  "TargetFile": "loottables.json",
+  "Author": "Majestic",
+  "RequireAll": true,
+  "Patches": [
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Greyling')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Deer')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Boar')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Neck')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Greydwarf')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Greydwarf_Shaman')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Skeleton_Poison')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Skeleton')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Blob')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'BlobElite')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Draugr')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Draugr_Ranged')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Ulv')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Leech')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Surtling')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Wolf')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Hatchling')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Deathsquito')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Goblin')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'GoblinArcher')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'GoblinShaman')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Seeker')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Dverger')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'DvergerMage')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'DvergerMageFire')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'DvergerMageIce')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'DvergerMageSupport')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Tick')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Serpent')]",
+	  "Action": "Remove"
+	},
+        
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Volture')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Asksvin')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Charred_Twitcher')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Charred_Archer')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Charred_Mage')]",
+	  "Action": "Remove"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Charred_Melee')]",
+	  "Action": "Remove"
+	},
+	
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Troll')].RefObject",
+	  "Action": "Overwrite",
+	  "Value": "BlackForestElite"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Greydwarf_Elite')].RefObject",
+	  "Action": "Overwrite",
+	  "Value": "BlackForestElite"
+	},
+	
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Draugr_Elite')].RefObject",
+	  "Action": "Overwrite",
+	  "Value": "SwampElite"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Abomination')].RefObject",
+	  "Action": "Overwrite",
+	  "Value": "SwampElite"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Wraith')].RefObject",
+	  "Action": "Overwrite",
+	  "Value": "SwampElite"
+	},
+	
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Fenring_Cultist')].RefObject",
+	  "Action": "Overwrite",
+	  "Value": "MountainElite"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'StoneGolem')].RefObject",
+	  "Action": "Overwrite",
+	  "Value": "MountainElite"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Fenring')].RefObject",
+	  "Action": "Overwrite",
+	  "Value": "MountainElite"
+	},
+	
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Lox')].RefObject",
+	  "Action": "Overwrite",
+	  "Value": "PlainsElite"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'GoblinBrute')].RefObject",
+	  "Action": "Overwrite",
+	  "Value": "PlainsElite"
+	},
+	
+	{
+	  "Path": "$.LootTables[?(@.Object == 'SeekerBrute')].RefObject",
+	  "Action": "Overwrite",
+	  "Value": "MistlandsElite"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Gjall')].RefObject",
+	  "Action": "Overwrite",
+	  "Value": "MistlandsElite"
+	},
+	
+	{
+	  "Path": "$.LootTables[?(@.Object == 'FallenValkyrie')].RefObject",
+	  "Action": "Overwrite",
+	  "Value": "AshlandsElite"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'BonemawSerpent')].RefObject",
+	  "Action": "Overwrite",
+	  "Value": "AshlandsElite"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Morgen_NonSleeping')].RefObject",
+	  "Action": "Overwrite",
+	  "Value": "AshlandsElite"
+	},
+	
+	{
+      "Path": "$.LootTables",
+      "Action": "AppendAll",
+      "Value": [
+	{
+      "Object": "Boar",
+      "RefObject": "SmallCreatures"
+    },
+	{
+      "Object": "Neck",
+      "RefObject": "SmallCreatures"
+    },
+	{
+      "Object": "Deer",
+      "RefObject": "SmallCreatures"
+    },
+	{
+      "Object": "Greyling",
+      "RefObject": "SmallCreatures"
+    },
+	{
+      "Object": "Fox_TW",
+      "RefObject": "MeadowsElite"
+    },
+	
+	{
+      "Object": "Razorback_TW",
+      "RefObject": "SmallCreatures"
+    },
+	{
+      "Object": "BlackBear_TW",
+      "RefObject": "SmallCreatures"
+    },
+	{
+      "Object": "Ghost",
+      "RefObject": "SmallCreatures"
+    },
+	{
+      "Object": "GreydwarfMage_TW",
+      "RefObject": "SmallCreatures"
+    },
+	
+	{
+      "Object": "RottingElk_TW",
+      "RefObject": "SmallCreatures"
+    },
+	{
+      "Object": "Crawler_TW",
+      "RefObject": "SmallCreatures"
+    },
+	{
+      "Object": "SkeletonMage_TW",
+      "RefObject": "SmallCreatures"
+    },
+	{
+      "Object": "Blob",
+      "RefObject": "SmallCreatures"
+    },
+	{
+      "Object": "BlobElite",
+      "RefObject": "SmallCreatures"
+    },
+	{
+      "Object": "Leech",
+      "RefObject": "SmallCreatures"
+    },
+	{
+      "Object": "Surtling",
+      "RefObject": "SmallCreatures"
+    },
+	
+	{
+      "Object": "Wolf",
+      "RefObject": "SmallCreatures"
+    },
+	{
+      "Object": "Hatchling",
+      "RefObject": "SmallCreatures"
+    },
+	{
+      "Object": "Ulv",
+      "RefObject": "SmallCreatures"
+    },
+	{
+      "Object": "GrizzlyBear_TW",
+      "RefObject": "SmallCreatures"
+    },
+	{
+      "Object": "ObsidianGolem_TW",
+      "RefObject": "SmallCreatures"
+    },
+	{
+      "Object": "FenringMage_TW",
+      "RefObject": "SmallCreatures"
+    },
+	
+	{
+      "Object": "Goblin",
+      "RefObject": "SmallCreatures"
+    },
+	{
+      "Object": "GoblinArcher",
+      "RefObject": "SmallCreatures"
+    },
+	{
+      "Object": "GoblinShaman",
+      "RefObject": "SmallCreatures"
+    },
+	{
+      "Object": "GoblinMage_TW",
+      "RefObject": "SmallCreatures"
+    },
+	{
+      "Object": "Deathsquito",
+      "RefObject": "SmallCreatures"
+    },
+	{
+      "Object": "BlobTar",
+      "RefObject": "SmallCreatures"
+    },
+	
+	{
+      "Object": "Seeker",
+      "RefObject": "SmallCreatures"
+    },
+	{
+      "Object": "Dverger",
+      "RefObject": "SmallCreatures"
+    },
+	{
+      "Object": "DvergerMage",
+      "RefObject": "SmallCreatures"
+    },
+	{
+      "Object": "CorruptedDvergerMage_TW",
+      "RefObject": "SmallCreatures"
+    },
+	
+	{
+      "Object": "SurtrImp_TW",
+      "RefObject": "SmallCreatures"
+    },
+	{
+      "Object": "SurtrHound_TW",
+      "RefObject": "SmallCreatures"
+    },
+	{
+      "Object": "SurtrDrake_TW",
+      "RefObject": "SmallCreatures"
+    },
+	{
+      "Object": "ArcticBear_TW",
+      "RefObject": "SmallCreatures"
+    },
+	{
+      "Object": "ArcticWolf_TW",
+      "RefObject": "SmallCreatures"
+    },
+	{
+      "Object": "ArcticSerpent_TW",
+      "RefObject": "SmallCreatures"
+    },
+	{
+      "Object": "StormCultist_TW",
+      "RefObject": "SmallCreatures"
+    },
+	{
+      "Object": "StormFenring_TW",
+      "RefObject": "SmallCreatures"
+    },
+	{
+      "Object": "JotunnBladefist_TW",
+      "RefObject": "SmallCreatures"
+    },
+	{
+      "Object": "JotunnShaman_TW",
+      "RefObject": "SmallCreatures"
+    },
+	{
+      "Object": "JotunnWolf_TW",
+      "RefObject": "SmallCreatures"
+    },
+	{
+      "Object": "SurtrSeer_TW",
+      "RefObject": "SmallCreatures"
+    },
+	{
+      "Object": "DaggerFang_TW",
+      "RefObject": "SmallCreatures"
+    },
+	
+	{
+      "Object": "HelWraith_TW",
+      "RefObject": "SwampElite"
+    },
+	{
+      "Object": "Prowler_TW",
+      "RefObject": "PlainsElite"
+	},
+	
+	{
+      "Object": "SurtrLegionnaire_TW",
+      "RefObject": "DeepNorthElite"
+	},
+	{
+      "Object": "SurtrBrute_TW",
+      "RefObject": "DeepNorthElite"
+	},
+	{
+      "Object": "SurtrWarbringer_TW",
+      "RefObject": "DeepNorthElite"
+    },
+	{
+      "Object": "JotunnBrute_TW",
+      "RefObject": "DeepNorthElite"
+	},
+	{
+      "Object": "JotunnJuggernaut_TW",
+      "RefObject": "DeepNorthElite"
+	},
+	{
+      "Object": "ArcticMammoth_TW",
+      "RefObject": "DeepNorthElite"
+	}
+   ]
+  }
+ ]
+}

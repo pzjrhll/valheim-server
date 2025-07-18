@@ -8,7 +8,7 @@ amount: 1
 disabled: false
 requireOnlyOneIngredient: false
 reqs:
-- RazorbackLeather_TW:5:0:True
+- Coins:200:0:True
 - GreydwarfEye:5:0:True
 - InfusedCrystal_JH:6:0:True
 - kg_EnchantScroll_Weapon_D:1:0:True

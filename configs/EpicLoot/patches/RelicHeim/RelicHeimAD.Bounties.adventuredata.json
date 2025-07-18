@@ -1,0 +1,243 @@
+{
+  "TargetFile": "adventuredata.json", 
+  "Author": "Majestic",
+  "Priority": 900,
+  "RequireAll": true, 
+  "Patches": [
+    {
+      "Path": "$.TreasureMap.RefreshInterval",
+      "Action": "Overwrite",
+      "Value": 1
+    },
+	{
+      "Path": "$.TreasureMap.BiomeInfo",
+      "Action": "Overwrite",
+      "Value":  [
+      { "Biome": "Meadows",     "Cost": 50,  "ForestTokens": 2, "MinRadius": 0,     "MaxRadius": 1000 },
+      { "Biome": "BlackForest", "Cost": 150, "ForestTokens": 2, "MinRadius": 300,   "MaxRadius": 2000 },
+      { "Biome": "Ocean",       "Cost": -1,  "ForestTokens": 0, "MinRadius": 500,   "MaxRadius": 3000 },
+      { "Biome": "Swamp",       "Cost": 250, "ForestTokens": 3, "MinRadius": 500,   "MaxRadius": 5000 },
+      { "Biome": "Mountain",    "Cost": 350, "ForestTokens": 4, "MinRadius": 500,   "MaxRadius": 6000 },
+      { "Biome": "Plains",      "Cost": 450, "ForestTokens": 5, "MinRadius": 2000,  "MaxRadius": 6000 },
+      { "Biome": "Mistlands",   "Cost": 600, "ForestTokens": 5, "MinRadius": 4000, 	"MaxRadius": 9000 },
+      { "Biome": "AshLands",   	"Cost": 750, "ForestTokens": 5, "MinRadius": 8000, 	"MaxRadius": 15000 },
+      { "Biome": "DeepNorth",   "Cost": 800, "ForestTokens": 6, "MinRadius": 8000, 	"MaxRadius": 15000 }
+	  ]
+    },
+	{
+      "Path": "$.TreasureMap.StartRadiusMin",
+      "Action": "Overwrite",
+      "Value": 0
+    },
+	{
+      "Path": "$.TreasureMap.StartRadiusMax",
+      "Action": "Overwrite",
+      "Value": 250
+    },
+	{
+      "Path": "$.TreasureMap.IncreaseRadiusCount",
+      "Action": "Overwrite",
+      "Value": 5
+    },
+	{
+      "Path": "$.TreasureMap.RadiusInterval",
+      "Action": "Overwrite",
+      "Value": 50
+    },
+	{
+      "Path": "$.TreasureMap.MinimapAreaRadius",
+      "Action": "Overwrite",
+      "Value": 45
+    },
+	
+	
+	{
+      "Path": "$.Bounties.RefreshInterval",
+      "Action": "Overwrite",
+      "Value": 1
+    },
+	{
+      "Path": "$.Bounties.IronMinLevel",
+      "Action": "Overwrite",
+      "Value": 3
+    },
+	{
+      "Path": "$.Bounties.IronMaxLevel",
+      "Action": "Overwrite",
+      "Value": 4
+    },
+	{
+      "Path": "$.Bounties.IronHealthMultiplier",
+      "Action": "Overwrite",
+      "Value": 2.5
+    },
+	{
+      "Path": "$.Bounties.GoldMinLevel",
+      "Action": "Overwrite",
+      "Value": 5
+    },
+	{
+      "Path": "$.Bounties.GoldMaxLevel",
+      "Action": "Overwrite",
+      "Value": 6
+    },
+	{
+      "Path": "$.Bounties.GoldHealthMultiplier",
+      "Action": "Overwrite",
+      "Value": 3.0
+    },
+	{
+      "Path": "$.Bounties.AddsMinLevel",
+      "Action": "Overwrite",
+      "Value": 3
+    },
+	{
+      "Path": "$.Bounties.AddsMaxLevel",
+      "Action": "Overwrite",
+      "Value": 3
+    },
+	{
+      "Path": "$.Bounties.AddsHealthMultiplier",
+      "Action": "Overwrite",
+      "Value": 2.0
+    },
+	
+	{
+     "Path": "$.Bounties.Targets",
+     "Action": "Overwrite",
+     "Value": [
+	  { "Biome": "Meadows",     "TargetID": "Greyling",         	"RewardGold": 1, "RewardIron": 1, "RewardCoins": 75    },
+      { "Biome": "Meadows",     "TargetID": "Greyling",             "RewardGold": 1, "RewardIron": 1, "RewardCoins": 100   },
+      { "Biome": "Meadows",     "TargetID": "Boar",             	"RewardGold": 1, "RewardIron": 1, "RewardCoins": 100   },
+      { "Biome": "Meadows",     "TargetID": "Neck",             	"RewardGold": 1, "RewardIron": 1, "RewardCoins": 75    },
+      { "Biome": "Meadows",     "TargetID": "Fox_TW",             	"RewardGold": 1, "RewardIron": 1, "RewardCoins": 80    },
+      
+      { "Biome": "BlackForest", "TargetID": "Greydwarf",        	"RewardGold": 1, "RewardIron": 1, "RewardCoins": 120   },
+      { "Biome": "BlackForest", "TargetID": "Greydwarf",        	"RewardGold": 0, "RewardIron": 2, "RewardCoins": 150   },
+      { "Biome": "BlackForest", "TargetID": "Razorback_TW",        	"RewardGold": 1, "RewardIron": 1, "RewardCoins": 120   },
+      { "Biome": "BlackForest", "TargetID": "Razorback_TW",        	"RewardGold": 1, "RewardIron": 2, "RewardCoins": 150   },
+      { "Biome": "BlackForest", "TargetID": "Ghost",  				"RewardGold": 1, "RewardIron": 1, "RewardCoins": 170   },
+      { "Biome": "BlackForest", "TargetID": "Ghost",  				"RewardGold": 2, "RewardIron": 2, "RewardCoins": 250   },
+      { "Biome": "BlackForest", "TargetID": "Skeleton",				"RewardGold": 1, "RewardIron": 1, "RewardCoins": 160   },
+      { "Biome": "BlackForest", "TargetID": "Skeleton", 			"RewardGold": 1, "RewardIron": 2, "RewardCoins": 200   },
+      { "Biome": "BlackForest", "TargetID": "Greydwarf_Elite",  	"RewardGold": 1, "RewardIron": 2, "RewardCoins": 300   },
+      { "Biome": "BlackForest", "TargetID": "Greydwarf_Elite",   	"RewardGold": 2, "RewardIron": 1, "RewardCoins": 375   },
+      { "Biome": "BlackForest", "TargetID": "Greydwarf_Shaman", 	"RewardGold": 1, "RewardIron": 2, "RewardCoins": 300   },
+      { "Biome": "BlackForest", "TargetID": "Greydwarf_Shaman", 	"RewardGold": 2, "RewardIron": 1, "RewardCoins": 300   },
+      { "Biome": "BlackForest", "TargetID": "Troll",            	"RewardGold": 2, "RewardIron": 4, "RewardCoins": 700   },
+      { "Biome": "BlackForest", "TargetID": "Troll",            	"RewardGold": 4, "RewardIron": 6, "RewardCoins": 900   },
+      { "Biome": "BlackForest", "TargetID": "BlackBear_TW", 		"RewardGold": 1, "RewardIron": 2, "RewardCoins": 400   },
+      { "Biome": "BlackForest", "TargetID": "BlackBear_TW", 		"RewardGold": 2, "RewardIron": 1, "RewardCoins": 400   },
+      { "Biome": "BlackForest", "TargetID": "GDAncientShaman_TW", 	"RewardGold": 2, "RewardIron": 1, "RewardCoins": 500   },
+      { "Biome": "BlackForest", "TargetID": "GDAncientShaman_TW", 	"RewardGold": 1, "RewardIron": 2, "RewardCoins": 500   },
+      { "Biome": "BlackForest", "TargetID": "Surtling",				"RewardGold": 1, "RewardIron": 2, "RewardCoins": 400   },
+      { "Biome": "BlackForest", "TargetID": "Surtling",				"RewardGold": 2, "RewardIron": 1, "RewardCoins": 400   },
+      
+      { "Biome": "Swamp",       "TargetID": "Blob",             	"RewardGold": 1, "RewardIron": 1, "RewardCoins": 500   },
+      { "Biome": "Swamp",       "TargetID": "BlobElite",            "RewardGold": 1, "RewardIron": 2, "RewardCoins": 600   },
+      { "Biome": "Swamp",       "TargetID": "BlobElite",            "RewardGold": 2, "RewardIron": 2, "RewardCoins": 600   },
+      { "Biome": "Swamp",       "TargetID": "Leech",            	"RewardGold": 1, "RewardIron": 1, "RewardCoins": 500   },
+      { "Biome": "Swamp",       "TargetID": "Leech",            	"RewardGold": 1, "RewardIron": 2, "RewardCoins": 500   },
+      { "Biome": "Swamp",       "TargetID": "RottingElk_TW",        "RewardGold": 1, "RewardIron": 1, "RewardCoins": 500   },
+      { "Biome": "Swamp",       "TargetID": "RottingElk_TW",        "RewardGold": 1, "RewardIron": 2, "RewardCoins": 500   },
+      { "Biome": "Swamp",       "TargetID": "Draugr",           	"RewardGold": 1, "RewardIron": 2, "RewardCoins": 500   },
+      { "Biome": "Swamp",       "TargetID": "Draugr",           	"RewardGold": 2, "RewardIron": 2, "RewardCoins": 500   },
+      { "Biome": "Swamp",       "TargetID": "Draugr_Elite",     	"RewardGold": 1, "RewardIron": 2, "RewardCoins": 600   },
+      { "Biome": "Swamp",       "TargetID": "Draugr_Elite",     	"RewardGold": 2, "RewardIron": 2, "RewardCoins": 300   },
+      { "Biome": "Swamp",       "TargetID": "Surtling",         	"RewardGold": 1, "RewardIron": 1, "RewardCoins": 400   },
+      { "Biome": "Swamp",       "TargetID": "Surtling",         	"RewardGold": 1, "RewardIron": 2, "RewardCoins": 400   },
+      { "Biome": "Swamp",       "TargetID": "Wraith",           	"RewardGold": 1, "RewardIron": 4, "RewardCoins": 600   },
+      { "Biome": "Swamp",       "TargetID": "Wraith",           	"RewardGold": 2, "RewardIron": 2, "RewardCoins": 800   },
+      { "Biome": "Swamp",       "TargetID": "HelWraith_TW",         "RewardGold": 2, "RewardIron": 4, "RewardCoins": 845   },
+      { "Biome": "Swamp",       "TargetID": "HelWraith_TW",         "RewardGold": 2, "RewardIron": 4, "RewardCoins": 925   },
+      { "Biome": "Swamp",       "TargetID": "Abomination",      	"RewardGold": 4, "RewardIron": 2, "RewardCoins": 1500   },
+      { "Biome": "Swamp",       "TargetID": "Abomination",     		"RewardGold": 6, "RewardIron": 4, "RewardCoins": 1500  },
+      { "Biome": "Swamp",       "TargetID": "Crawler_TW",     		"RewardGold": 1, "RewardIron": 4, "RewardCoins": 800   },
+    
+      { "Biome": "Ocean",       "TargetID": "Serpent",				"RewardGold": 1, "RewardIron": 2, "RewardCoins": 600  },
+      { "Biome": "Ocean",       "TargetID": "Serpent",				"RewardGold": 2, "RewardIron": 6, "RewardCoins": 800  },
+      { "Biome": "Ocean",       "TargetID": "Shark_TW",				"RewardGold": 1, "RewardIron": 2, "RewardCoins": 500  },
+      { "Biome": "Ocean",       "TargetID": "Shark_TW",				"RewardGold": 2, "RewardIron": 4, "RewardCoins": 800  },
+      
+      { "Biome": "Mountain",    "TargetID": "Wolf",             	"RewardGold": 1, "RewardIron": 4, "RewardCoins": 800   },
+      { "Biome": "Mountain",    "TargetID": "Wolf",             	"RewardGold": 2, "RewardIron": 2, "RewardCoins": 830   },
+      { "Biome": "Mountain",    "TargetID": "Hatchling",        	"RewardGold": 1, "RewardIron": 4, "RewardCoins": 745   },
+      { "Biome": "Mountain",    "TargetID": "Hatchling",        	"RewardGold": 2, "RewardIron": 2, "RewardCoins": 854   },
+      { "Biome": "Mountain",    "TargetID": "GrizzlyBear_TW",       "RewardGold": 1, "RewardIron": 4, "RewardCoins": 800   },
+      { "Biome": "Mountain",    "TargetID": "GrizzlyBear_TW",       "RewardGold": 2, "RewardIron": 2, "RewardCoins": 900   },
+      { "Biome": "Mountain",    "TargetID": "Fenring",          	"RewardGold": 1, "RewardIron": 4, "RewardCoins": 800   },
+      { "Biome": "Mountain",    "TargetID": "Fenring",          	"RewardGold": 2, "RewardIron": 4, "RewardCoins": 900   },
+      { "Biome": "Mountain",    "TargetID": "StoneGolem",        	"RewardGold": 1, "RewardIron": 6, "RewardCoins": 1000   },
+      { "Biome": "Mountain",    "TargetID": "StoneGolem",        	"RewardGold": 2, "RewardIron": 4, "RewardCoins": 1300  },
+      { "Biome": "Mountain",    "TargetID": "ObsidianGolem_TW",     "RewardGold": 1, "RewardIron": 6, "RewardCoins": 1000   },
+      { "Biome": "Mountain",    "TargetID": "ObsidianGolem_TW",     "RewardGold": 2, "RewardIron": 4, "RewardCoins": 1300   },
+      { "Biome": "Mountain",    "TargetID": "StoneGolem",       	"RewardGold": 8, "RewardIron": 6, "RewardCoins": 1500  },
+	  { "Biome": "Mountain",    "TargetID": "Fenring_Cultist",  	"RewardGold": 1, "RewardIron": 6, "RewardCoins": 1100   },
+	  { "Biome": "Mountain",    "TargetID": "Fenring_Cultist",  	"RewardGold": 4, "RewardIron": 2, "RewardCoins": 1400  },
+
+      { "Biome": "Plains",      "TargetID": "Goblin",           	"RewardGold": 1, "RewardIron": 6, "RewardCoins": 800   },
+      { "Biome": "Plains",      "TargetID": "Goblin",           	"RewardGold": 2, "RewardIron": 2, "RewardCoins": 1100   },
+	  { "Biome": "Plains",      "TargetID": "Lox",              	"RewardGold": 4, "RewardIron": 1, "RewardCoins": 1300   },
+	  { "Biome": "Plains",      "TargetID": "Lox",              	"RewardGold": 6, "RewardIron": 2, "RewardCoins": 1500  },
+	  { "Biome": "Plains",      "TargetID": "Prowler_TW",           "RewardGold": 1, "RewardIron": 4, "RewardCoins": 1100   },
+	  { "Biome": "Plains",      "TargetID": "Prowler_TW",           "RewardGold": 2, "RewardIron": 4, "RewardCoins": 1300   },
+	  { "Biome": "Plains",      "TargetID": "BlobTar",              "RewardGold": 1, "RewardIron": 6, "RewardCoins": 900   },
+	  { "Biome": "Plains",      "TargetID": "BlobTar",              "RewardGold": 2, "RewardIron": 6, "RewardCoins": 950   },
+      { "Biome": "Plains",      "TargetID": "Deathsquito",      	"RewardGold": 1, "RewardIron": 6, "RewardCoins": 900   },
+      { "Biome": "Plains",      "TargetID": "Deathsquito",      	"RewardGold": 2, "RewardIron": 6, "RewardCoins": 1100   },
+      { "Biome": "Plains",      "TargetID": "GoblinBrute",      	"RewardGold": 6, "RewardIron": 1, "RewardCoins": 1200   },
+      { "Biome": "Plains",      "TargetID": "GoblinBrute",      	"RewardGold": 8, "RewardIron": 4, "RewardCoins": 1600  },
+      { "Biome": "Plains",      "TargetID": "GoblinShaman",     	"RewardGold": 1, "RewardIron": 6, "RewardCoins": 950   },
+      { "Biome": "Plains",      "TargetID": "GoblinShaman",     	"RewardGold": 2, "RewardIron": 2, "RewardCoins": 1000   },
+
+      { "Biome": "Mistlands",   "TargetID": "Seeker",           	"RewardGold": 1, "RewardIron": 10, "RewardCoins": 1200  },
+      { "Biome": "Mistlands",   "TargetID": "SeekerBrute",      	"RewardGold": 8, "RewardIron": 1, "RewardCoins": 1500 },
+      { "Biome": "Mistlands",   "TargetID": "SeekerBrute",      	"RewardGold": 10, "RewardIron": 1, "RewardCoins": 1600 },
+      { "Biome": "Mistlands",   "TargetID": "Seeker",           	"RewardGold": 1, "RewardIron": 10, "RewardCoins": 1100  },
+      { "Biome": "Mistlands",   "TargetID": "Gjall",            	"RewardGold": 1, "RewardIron": 10, "RewardCoins": 1300 },
+      { "Biome": "Mistlands",   "TargetID": "Gjall",            	"RewardGold": 8, "RewardIron": 4, "RewardCoins": 1700 },
+      { "Biome": "Mistlands",   "TargetID": "Dverger", 				"RewardGold": 1, "RewardIron": 10, "RewardCoins": 1600 },
+      { "Biome": "Mistlands",   "TargetID": "DvergerMage", 			"RewardGold": 0, "RewardIron": 10, "RewardCoins": 1600 },
+	  
+      { "Biome": "AshLands",   "TargetID": "Charred_Melee",   		"RewardGold": 8, "RewardIron": 10, "RewardCoins": 2500 },
+      { "Biome": "AshLands",   "TargetID": "Charred_Melee",   		"RewardGold": 1, "RewardIron": 10, "RewardCoins": 2000 },
+      { "Biome": "AshLands",   "TargetID": "Charred_Archer",		"RewardGold": 10, "RewardIron": 10, "RewardCoins": 2500 },
+      { "Biome": "AshLands",   "TargetID": "Charred_Archer",		"RewardGold": 1, "RewardIron": 10, "RewardCoins": 2000 },
+      { "Biome": "AshLands",   "TargetID": "Charred_Mage",			"RewardGold": 10, "RewardIron": 10, "RewardCoins": 2500 },
+      { "Biome": "AshLands",   "TargetID": "Charred_Mage",			"RewardGold": 1, "RewardIron": 10, "RewardCoins": 2000 },
+      { "Biome": "AshLands",   "TargetID": "Morgen_NonSleeping",   	"RewardGold": 10, "RewardIron": 10, "RewardCoins": 2500 },
+      { "Biome": "AshLands",   "TargetID": "Morgen_NonSleeping",   	"RewardGold": 1, "RewardIron": 10, "RewardCoins": 2000 },
+      { "Biome": "AshLands",   "TargetID": "FallenValkyrie",   		"RewardGold": 10, "RewardIron": 10, "RewardCoins": 2500 },
+      { "Biome": "AshLands",   "TargetID": "FallenValkyrie",   		"RewardGold": 1, "RewardIron": 10, "RewardCoins": 2000 },
+      { "Biome": "AshLands",   "TargetID": "Asksvin",   			"RewardGold": 10, "RewardIron": 10, "RewardCoins": 2500 },
+      { "Biome": "AshLands",   "TargetID": "Asksvin",   			"RewardGold": 1, "RewardIron": 10, "RewardCoins": 2000 },
+      { "Biome": "AshLands",   "TargetID": "BlobLava",				"RewardGold": 10, "RewardIron": 10, "RewardCoins": 2500 },
+      { "Biome": "AshLands",   "TargetID": "BlobLava",				"RewardGold": 1, "RewardIron": 10, "RewardCoins": 2000 }
+      ]
+	},
+	{
+     "Path": "$.Bounties.Bosses",
+     "Action": "Overwrite",
+     "Value": [
+      {"Biome": "Meadows",      "BossPrefab": "Eikthyr",      "BossDefeatedKey": "defeated_eikthyr" },
+      {"Biome": "BlackForest",  "BossPrefab": "gd_king",      "BossDefeatedKey": "defeated_gdking" },
+      {"Biome": "Ocean",        "BossPrefab": "Bonemass",	  "BossDefeatedKey": "defeated_bonemass" }, 
+      {"Biome": "Swamp",        "BossPrefab": "Bonemass",     "BossDefeatedKey": "defeated_bonemass" },
+      {"Biome": "Mountain",     "BossPrefab": "Dragon",       "BossDefeatedKey": "defeated_dragon" },
+      {"Biome": "Plains",       "BossPrefab": "GoblinKing",   "BossDefeatedKey": "defeated_goblinking" },
+      {"Biome": "Mistlands",    "BossPrefab": "SeekerQueen",  "BossDefeatedKey": "defeated_queen" },
+      {"Biome": "AshLands",     "BossPrefab": "Fader",        "BossDefeatedKey": "defeated_fader" }
+      ]
+    },
+	{
+     "Path": "$.Bounties.Bosses",
+     "Action": "AppendAll",
+     "Value": [
+      {"Biome": "DeepNorth",	"BossPrefab": "BossSythrak_TW",			"BossDefeatedKey": "defeated_sythrak" },
+      {"Biome": "DeepNorth",	"BossPrefab": "BossBrutalis_TW",		"BossDefeatedKey": "defeated_brutalis" },
+      {"Biome": "DeepNorth",	"BossPrefab": "BossStormHerald_TW",		"BossDefeatedKey": "defeated_stormherald" },
+      {"Biome": "DeepNorth",	"BossPrefab": "BossGorr_TW",			"BossDefeatedKey": "defeated_gorr" }
+      ]
+    }
+  ]
+}

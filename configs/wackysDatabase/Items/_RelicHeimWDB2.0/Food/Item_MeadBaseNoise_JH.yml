@@ -1,6 +1,6 @@
 name: MeadBaseNoise_JH
 m_weight: 1
-m_name: Mead Base Noise Reduction
+m_name: Mead Base Noise Reudction
 m_description: Needs to be fermented.
 clonePrefabName: MeadBaseTasty
 mockName: 
@@ -37,7 +37,7 @@ SE_SET_Equip:
 ShieldStats:
   m_blockPower: 10
   m_blockPowerPerLevel: 0
-  m_timedBlockBonus: 1.2
+  m_timedBlockBonus: 1.5
   m_deflectionForce: 0
   m_deflectionForcePerLevel: 0
 m_maxStackSize: 100

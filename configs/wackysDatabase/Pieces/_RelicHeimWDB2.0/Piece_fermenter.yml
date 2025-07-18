@@ -104,6 +104,42 @@ fermStationData:
     ToName: MeadStaminaLingeringMedium_TW
     Amount: 3
     Remove: false
+  - FromName: mmo_mead_minor
+    ToName: mmo_xp_drink1
+    Amount: 3
+    Remove: false
+  - FromName: mmo_mead_med
+    ToName: mmo_xp_drink2
+    Amount: 3
+    Remove: false
+  - FromName: mmo_mead_greater
+    ToName: mmo_xp_drink3
+    Amount: 3
+    Remove: false
+  - FromName: mmo_mead_orb1
+    ToName: mmo_orb1
+    Amount: 2
+    Remove: false
+  - FromName: mmo_mead_orb2
+    ToName: mmo_orb2
+    Amount: 2
+    Remove: false
+  - FromName: mmo_mead_orb3
+    ToName: mmo_orb3
+    Amount: 2
+    Remove: false
+  - FromName: mmo_mead_orb4
+    ToName: mmo_orb4
+    Amount: 2
+    Remove: false
+  - FromName: mmo_mead_orb5
+    ToName: mmo_orb5
+    Amount: 2
+    Remove: false
+  - FromName: mmo_mead_orb6
+    ToName: mmo_orb6
+    Amount: 2
+    Remove: false
   - FromName: MeadBaseNoise_JH
     ToName: NoisePotion_JH
     Amount: 3

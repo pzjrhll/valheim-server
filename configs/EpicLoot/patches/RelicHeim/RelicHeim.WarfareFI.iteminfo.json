@@ -1,0 +1,646 @@
+{
+  "TargetFile": "iteminfo.json",
+  "Author": "Majestic",
+  "RequireAll": true,
+  "Patches": [
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Swords')].Items",
+      "Action": "AppendAll",
+      "Value": ["DualSwordSkadi_TW", "SwordSurtr_TW", "VolcanicBlade_TW", "BastardSurtr_TW", "ClaymoreSurtr_TW", "LightningBlade_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'Swords')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_sythrak",
+      "Value":  ["DualSwordSkadi_TW", "SwordSurtr_TW", "ClaymoreSurtr_TW", "BastardSurtr_TW", "VolcanicBlade_TW", "LightningBlade_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'Swords')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_brutalis",
+      "Value":  ["DualSwordSkadi_TW", "SwordSurtr_TW", "ClaymoreSurtr_TW", "BastardSurtr_TW", "VolcanicBlade_TW", "LightningBlade_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Swords')].Items",
+      "Action": "AppendAll",
+      "Value": ["DualSwordSkadi_TW", "SwordNjord_TW", "GlacierBlade_TW", "ClaymoreJotunn_TW", "BastardNjord_TW", "ClaymoreNjord_TW", "LightningBlade_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'Swords')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_stormherald",
+      "Value":  ["DualSwordSkadi_TW", "SwordNjord_TW", "GlacierBlade_TW", "ClaymoreJotunn_TW", "BastardNjord_TW", "ClaymoreNjord_TW", "LightningBlade_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'Swords')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_gorr",
+      "Value":  ["DualSwordSkadi_TW", "SwordNjord_TW", "GlacierBlade_TW", "ClaymoreJotunn_TW", "BastardNjord_TW", "ClaymoreNjord_TW", "LightningBlade_TW"]
+    },
+	
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Axes')].Items",
+      "Action": "AppendAll",
+      "Value": ["DualAxeKrom_TW", "AxeSurtr_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'Axes')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_sythrak",
+      "Value":  ["DualAxeKrom_TW", "AxeSurtr_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'Axes')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_brutalis",
+      "Value":  ["DualAxeKrom_TW", "AxeSurtr_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Axes')].Items",
+      "Action": "AppendAll",
+      "Value": ["DualAxeKrom_TW", "AxeNjord_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'Axes')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_stormherald",
+      "Value":  ["DualAxeKrom_TW", "AxeNjord_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'Axes')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_gorr",
+      "Value":  ["DualAxeKrom_TW", "AxeNjord_TW"]
+    },
+	
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'TwoHandAxes')].Items",
+      "Action": "AppendAll",
+      "Value": ["BattleaxeSurtr_TW", "BattleaxeCrystalMuspelheim_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'TwoHandAxes')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_sythrak",
+      "Value":  ["BattleaxeSurtr_TW", "BattleaxeCrystalMuspelheim_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'TwoHandAxes')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_brutalis",
+      "Value":  ["BattleaxeSurtr_TW", "BattleaxeCrystalMuspelheim_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'TwoHandAxes')].Items",
+      "Action": "AppendAll",
+      "Value": ["BattleaxeNjord_TW", "BattleaxeCrystalJotunnheim_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'TwoHandAxes')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_stormherald",
+      "Value":  ["BattleaxeNjord_TW", "BattleaxeCrystalJotunnheim_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'TwoHandAxes')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_gorr",
+      "Value":  ["BattleaxeNjord_TW", "BattleaxeCrystalJotunnheim_TW"]
+    },
+	
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Knives')].Items",
+      "Action": "AppendAll",
+      "Value": ["KnifeSurtr_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'Knives')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_sythrak",
+      "Value":  ["KnifeSurtr_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'Knives')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_brutalis",
+      "Value":  ["KnifeSurtr_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Knives')].Items",
+      "Action": "AppendAll",
+      "Value": ["KnifeNjord_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'Knives')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_stormherald",
+      "Value":  ["KnifeNjord_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'Knives')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_gorr",
+      "Value":  ["KnifeNjord_TW"]
+    },
+	
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Fists')].Items",
+      "Action": "AppendAll",
+      "Value": ["FistSurtr_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'Fists')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_sythrak",
+      "Value":  ["FistSurtr_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'Fists')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_brutalis",
+      "Value":  ["FistSurtr_TW"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Fists')].Items",
+      "Action": "AppendAll",
+      "Value": ["FistNjord_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'Fists')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_stormherald",
+      "Value":  ["FistNjord_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'Fists')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_gorr",
+      "Value":  ["FistNjord_TW"]
+    },
+	
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Staffs')].Items",
+      "Action": "AppendAll",
+      "Value": ["StaffImpDemon_TW" ]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'Staffs')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_sythrak",
+      "Value":  ["StaffImpDemon_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'Staffs')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_brutalis",
+      "Value":  ["StaffImpDemon_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'Staffs')].Items",
+      "Action": "AppendAll",
+      "Value": ["StaffSkrymir_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'Staffs')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_stormherald",
+      "Value":  ["StaffSkrymir_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'Staffs')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_gorr",
+      "Value":  ["StaffSkrymir_TW"]
+    },
+	
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Clubs')].Items",
+      "Action": "AppendAll",
+      "Value": ["DualHammerRageHatred_TW", "MaceSurtr_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'Clubs')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_sythrak",
+      "Value":  ["DualHammerRageHatred_TW", "MaceSurtr_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'Clubs')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_brutalis",
+      "Value":  ["DualHammerRageHatred_TW", "MaceSurtr_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'Clubs')].Items",
+      "Action": "AppendAll",
+      "Value": ["DualHammerRageHatred_TW", "MaceNjord_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'Clubs')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_stormherald",
+      "Value":  ["DualHammerRageHatred_TW", "MaceNjord_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'Clubs')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_gorr",
+      "Value":  ["DualHammerRageHatred_TW", "MaceNjord_TW"]
+    },
+	
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Sledges')].Items",
+      "Action": "AppendAll",
+      "Value": ["BattlehammerSurtr_TW", "SledgeSurtr_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'Sledges')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_sythrak",
+      "Value":  ["BattlehammerSurtr_TW", "SledgeSurtr_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'Sledges')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_brutalis",
+      "Value":  ["BattlehammerSurtr_TW", "SledgeSurtr_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'Sledges')].Items",
+      "Action": "AppendAll",
+      "Value": ["BattlehammerNjord_TW", "SledgeNjord_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'Sledges')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_stormherald",
+      "Value":  ["BattlehammerNjord_TW", "SledgeNjord_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'Sledges')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_gorr",
+      "Value":  ["BattlehammerNjord_TW", "SledgeNjord_TW"]
+    },
+	
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Polearms')].Items",
+      "Action": "AppendAll",
+      "Value": ["AtgeirSurtr_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'Polearms')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_sythrak",
+      "Value":  ["AtgeirSurtr_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'Polearms')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_brutalis",
+      "Value":  ["AtgeirSurtr_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'Polearms')].Items",
+      "Action": "AppendAll",
+      "Value": ["AtgeirNjord_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'Polearms')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_stormherald",
+      "Value":  ["AtgeirNjord_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'Polearms')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_gorr",
+      "Value":  ["AtgeirNjord_TW"]
+    },
+	
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Spears')].Items",
+      "Action": "AppendAll",
+      "Value": ["DualSpearSvigaFrekk_TW", "SpearSurtr_TW", "LanceSurtr_TW", "WarpikeSurtr_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'Spears')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_sythrak",
+      "Value":  ["DualSpearSvigaFrekk_TW", "SpearSurtr_TW", "LanceSurtr_TW", "WarpikeSurtr_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'Spears')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_brutalis",
+      "Value":  ["DualSpearSvigaFrekk_TW", "SpearSurtr_TW", "LanceSurtr_TW", "WarpikeSurtr_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'Spears')].Items",
+      "Action": "AppendAll",
+      "Value": ["DualSpearSvigaFrekk_TW", "SpearNjord_TW", "LanceNjord_TW", "WarpikeNjord_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'Spears')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_stormherald",
+      "Value":  ["DualSpearSvigaFrekk_TW", "SpearNjord_TW", "LanceNjord_TW", "WarpikeNjord_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'Spears')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_gorr",
+      "Value":  ["DualSpearSvigaFrekk_TW", "SpearNjord_TW", "LanceNjord_TW", "WarpikeNjord_TW"]
+    },
+	
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Bows')].Items",
+      "Action": "AppendAll",
+      "Value": ["BowSurtr_TW", "CrossbowSurtr_TW", "GreatbowSurtr_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'Bows')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_sythrak",
+      "Value":  ["BowSurtr_TW", "CrossbowSurtr_TW", "GreatbowSurtr_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'Bows')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_brutalis",
+      "Value":  ["BowSurtr_TW", "CrossbowSurtr_TW", "GreatbowSurtr_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'Bows')].Items",
+      "Action": "AppendAll",
+      "Value": ["BowNjord_TW", "CrossbowNjord_TW", "GreatbowNjord_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'Bows')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_stormherald",
+      "Value":  ["BowNjord_TW", "CrossbowNjord_TW", "GreatbowNjord_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'Bows')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_gorr",
+      "Value":  ["BowNjord_TW", "CrossbowNjord_TW", "GreatbowNjord_TW"]
+    },
+	
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Bucklers')].Items",
+      "Action": "AppendAll",
+      "Value": ["ShieldSurtrBuckler_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'Bucklers')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_sythrak",
+      "Value":  ["ShieldSurtrBuckler_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'Bucklers')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_brutalis",
+      "Value":  ["ShieldSurtrBuckler_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'Bucklers')].Items",
+      "Action": "AppendAll",
+      "Value": ["ShieldNjordBuckler_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'Bucklers')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_stormherald",
+      "Value":  ["ShieldNjordBuckler_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'Bucklers')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_gorr",
+      "Value":  ["ShieldNjordBuckler_TW"]
+    },
+	
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'RoundShields')].Items",
+      "Action": "AppendAll",
+      "Value": ["ShieldSurtr_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'RoundShields')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_sythrak",
+      "Value":  ["ShieldSurtr_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'RoundShields')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_brutalis",
+      "Value":  ["ShieldSurtr_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'RoundShields')].Items",
+      "Action": "AppendAll",
+      "Value": ["ShieldNjord_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'RoundShields')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_stormherald",
+      "Value":  ["ShieldNjord_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'RoundShields')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_gorr",
+      "Value":  ["ShieldNjord_TW"]
+    },
+	
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'TowerShields')].Items",
+      "Action": "AppendAll",
+      "Value": ["ShieldSurtrTower_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'TowerShields')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_sythrak",
+      "Value":  ["ShieldSurtrTower_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'TowerShields')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_brutalis",
+      "Value":  ["ShieldSurtrTower_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'TowerShields')].Items",
+      "Action": "AppendAll",
+      "Value": ["ShieldArcticSerpentscale_TW", "ShieldNjordTower_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'TowerShields')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_stormherald",
+      "Value":  ["ShieldArcticSerpentscale_TW", "ShieldNjordTower_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'TowerShields')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_gorr",
+      "Value":  ["ShieldArcticSerpentscale_TW", "ShieldNjordTower_TW"]
+    },
+	
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'HeadArmor')].Items",
+      "Action": "AppendAll",
+      "Value": ["HelmetSpellslinger_Surtr_TW", "HelmetRogueTyranium_TW", "HelmetWarriorRagnorite_TW", "HelmetRaiderRagnorite_TW", "HelmetVidarTyranium_TW", "HelmetFenrirThoradus_TW", "HelmetLegionThoradus_TW", "HelmetHunterTyranium_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'HeadArmor')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_sythrak",
+      "Value":  ["HelmetSpellslinger_Surtr_TW", "HelmetRogueTyranium_TW", "HelmetWarriorRagnorite_TW", "HelmetRaiderRagnorite_TW", "HelmetVidarTyranium_TW", "HelmetFenrirThoradus_TW", "HelmetLegionThoradus_TW", "HelmetHunterTyranium_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'HeadArmor')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_brutalis",
+      "Value":  ["HelmetSpellslinger_Surtr_TW", "HelmetRogueTyranium_TW", "HelmetWarriorRagnorite_TW", "HelmetRaiderRagnorite_TW", "HelmetVidarTyranium_TW", "HelmetFenrirThoradus_TW", "HelmetLegionThoradus_TW", "HelmetHunterTyranium_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'HeadArmor')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_stormherald",
+      "Value":  ["HelmetSpellslinger_Surtr_TW", "HelmetRogueTyranium_TW", "HelmetWarriorRagnorite_TW", "HelmetRaiderRagnorite_TW", "HelmetVidarTyranium_TW", "HelmetFenrirThoradus_TW", "HelmetLegionThoradus_TW", "HelmetHunterTyranium_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'HeadArmor')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_gorr",
+      "Value":  ["HelmetSpellslinger_Surtr_TW", "HelmetRogueTyranium_TW", "HelmetWarriorRagnorite_TW", "HelmetRaiderRagnorite_TW", "HelmetVidarTyranium_TW", "HelmetFenrirThoradus_TW", "HelmetLegionThoradus_TW", "HelmetHunterTyranium_TW"]
+    },
+	
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'ChestArmor')].Items",
+      "Action": "AppendAll",
+      "Value": ["ArmorSpellSlingerChest_Surtr_TW", "ArmorRogueTyraniumChest_TW", "ArmorWarriorRagnoriteChest_TW", "ArmorRaiderRagnoriteChest_TW", "ArmorVidarTyraniumChest_TW", "ArmorFenrirThoradusChest_TW", "ArmorLegionThoradusChest_TW", "ArmorHunterChestTyranium_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'ChestArmor')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_sythrak",
+      "Value":  ["ArmorSpellSlingerChest_Surtr_TW", "ArmorRogueTyraniumChest_TW", "ArmorWarriorRagnoriteChest_TW", "ArmorRaiderRagnoriteChest_TW", "ArmorVidarTyraniumChest_TW", "ArmorFenrirThoradusChest_TW", "ArmorLegionThoradusChest_TW", "ArmorHunterChestTyranium_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'ChestArmor')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_brutalis",
+      "Value":  ["ArmorSpellSlingerChest_Surtr_TW", "ArmorRogueTyraniumChest_TW", "ArmorWarriorRagnoriteChest_TW", "ArmorRaiderRagnoriteChest_TW", "ArmorVidarTyraniumChest_TW", "ArmorFenrirThoradusChest_TW", "ArmorLegionThoradusChest_TW", "ArmorHunterChestTyranium_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'ChestArmor')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_stormherald",
+      "Value":  ["ArmorSpellSlingerChest_Surtr_TW", "ArmorRogueTyraniumChest_TW", "ArmorWarriorRagnoriteChest_TW", "ArmorRaiderRagnoriteChest_TW", "ArmorVidarTyraniumChest_TW", "ArmorFenrirThoradusChest_TW", "ArmorLegionThoradusChest_TW", "ArmorHunterChestTyranium_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'ChestArmor')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_gorr",
+      "Value":  ["ArmorSpellSlingerChest_Surtr_TW", "ArmorRogueTyraniumChest_TW", "ArmorWarriorRagnoriteChest_TW", "ArmorRaiderRagnoriteChest_TW", "ArmorVidarTyraniumChest_TW", "ArmorFenrirThoradusChest_TW", "ArmorLegionThoradusChest_TW", "ArmorHunterChestTyranium_TW"]
+    },
+	
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'LegsArmor')].Items",
+      "Action": "AppendAll",
+      "Value": ["ArmorSpellslingerLegs_Surtr_TW", "ArmorRogueTyraniumLegs_TW", "ArmorWarriorRagnoriteLegs_TW", "ArmorRaiderRagnoriteLegs_TW", "ArmorVidarTyraniumLegs_TW", "ArmorFenrirThoradusLegs_TW", "ArmorLegionThoradusLegs_TW", "ArmorHunterLegsTyranium_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'LegsArmor')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_sythrak",
+      "Value":  ["ArmorSpellslingerLegs_Surtr_TW", "ArmorRogueTyraniumLegs_TW", "ArmorWarriorRagnoriteLegs_TW", "ArmorRaiderRagnoriteLegs_TW", "ArmorVidarTyraniumLegs_TW", "ArmorFenrirThoradusLegs_TW", "ArmorLegionThoradusLegs_TW", "ArmorHunterLegsTyranium_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'LegsArmor')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_brutalis",
+      "Value":  ["ArmorSpellslingerLegs_Surtr_TW", "ArmorRogueTyraniumLegs_TW", "ArmorWarriorRagnoriteLegs_TW", "ArmorRaiderRagnoriteLegs_TW", "ArmorVidarTyraniumLegs_TW", "ArmorFenrirThoradusLegs_TW", "ArmorLegionThoradusLegs_TW", "ArmorHunterLegsTyranium_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'LegsArmor')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_stormherald",
+      "Value":  ["ArmorSpellslingerLegs_Surtr_TW", "ArmorRogueTyraniumLegs_TW", "ArmorWarriorRagnoriteLegs_TW", "ArmorRaiderRagnoriteLegs_TW", "ArmorVidarTyraniumLegs_TW", "ArmorFenrirThoradusLegs_TW", "ArmorLegionThoradusLegs_TW", "ArmorHunterLegsTyranium_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'LegsArmor')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_gorr",
+      "Value":  ["ArmorSpellslingerLegs_Surtr_TW", "ArmorRogueTyraniumLegs_TW", "ArmorWarriorRagnoriteLegs_TW", "ArmorRaiderRagnoriteLegs_TW", "ArmorVidarTyraniumLegs_TW", "ArmorFenrirThoradusLegs_TW", "ArmorLegionThoradusLegs_TW", "ArmorHunterLegsTyranium_TW"]
+    },
+	
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'ShouldersArmor')].Items",
+      "Action": "AppendAll",
+      "Value": ["CapeDemon_TW", "CapeSurtr_TW", "CapeNorth_TW", "CapeYmir_TW", "CapeFenrir_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'ShouldersArmor')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_sythrak",
+      "Value":  ["CapeDemon_TW", "CapeSurtr_TW", "CapeNorth_TW", "CapeYmir_TW", "CapeFenrir_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'ShouldersArmor')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_brutalis",
+      "Value":  ["CapeDemon_TW", "CapeSurtr_TW", "CapeNorth_TW", "CapeYmir_TW", "CapeFenrir_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'ShouldersArmor')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_stormherald",
+      "Value":  ["CapeDemon_TW", "CapeSurtr_TW", "CapeNorth_TW", "CapeYmir_TW", "CapeFenrir_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'ShouldersArmor')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_gorr",
+      "Value":  ["CapeDemon_TW", "CapeSurtr_TW", "CapeNorth_TW", "CapeYmir_TW", "CapeFenrir_TW"]
+    },
+	
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Utility')].Items",
+      "Action": "AppendAll",
+      "Value": ["RingLoki_TW", "NecklaceTyr_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'Utility')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_sythrak",
+      "Value":  ["NecklaceTyr_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'Utility')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_brutalis",
+      "Value":  ["NecklaceTyr_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'Utility')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_stormherald",
+      "Value":  ["RingLoki_TW"]
+    },
+	{
+      "Path": "$.ItemInfo[?(@.Type == 'Utility')].ItemsByBoss",
+      "Action": "Add",
+      "PropertyName": "defeated_gorr",
+      "Value":  ["RingLoki_TW"]
+    }
+  ]
+}

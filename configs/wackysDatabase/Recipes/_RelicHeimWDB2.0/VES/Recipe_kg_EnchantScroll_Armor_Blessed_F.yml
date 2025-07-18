@@ -8,7 +8,7 @@ amount: 1
 disabled: false
 requireOnlyOneIngredient: false
 reqs:
-- DeerHide:5:0:True
+- Coins:100:0:True
 - Flint:5:0:True
 - InfusedCrystal_JH:5:0:True
 - kg_EnchantScroll_Armor_F:1:0:True

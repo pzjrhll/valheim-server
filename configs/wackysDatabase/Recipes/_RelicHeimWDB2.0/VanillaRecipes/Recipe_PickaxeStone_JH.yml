@@ -3,10 +3,10 @@ clonePrefabName: PickaxeStone_JH
 craftingStation: 
 minStationLevel: 
 maxStationLevelCap: 
-repairStation: $piece_workbench
+repairStation: 
 amount: 1
 disabled: false
 requireOnlyOneIngredient: false
 reqs:
-- Wood:10:0:True
 - Stone:5:0:True
+- Wood:10:0:True

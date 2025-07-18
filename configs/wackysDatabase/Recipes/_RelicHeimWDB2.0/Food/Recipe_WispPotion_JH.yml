@@ -1,12 +1,12 @@
 name: WispPotion_JH
 clonePrefabName: WispPotion_JH
-craftingStation: $piece_meadcauldron
-minStationLevel: 1
+craftingStation: $piece_cauldron
+minStationLevel: 4
 maxStationLevelCap: 
 repairStation: 
 amount: 3
 disabled: false
 requireOnlyOneIngredient: false
 reqs:
-- Wisp:3:0:True
+- Demister:1:0:True
 - MeadTasty:3:1:True
