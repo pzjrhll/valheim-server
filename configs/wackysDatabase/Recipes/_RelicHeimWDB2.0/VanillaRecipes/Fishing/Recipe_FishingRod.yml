@@ -1,7 +1,7 @@
 name: FishingRod
 clonePrefabName: FishingRod
 craftingStation: $piece_workbench
-minStationLevel: 3
+minStationLevel: 4
 maxStationLevelCap: 
 repairStation: 
 amount: 1

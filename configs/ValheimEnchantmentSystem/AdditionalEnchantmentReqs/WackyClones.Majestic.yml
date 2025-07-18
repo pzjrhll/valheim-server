@@ -1,13 +1,3 @@
-# DeepNorth
-- enchant_prefab:
-    prefab: kg_EnchantScroll_Weapon_S
-    amount: 2
-  blessed_enchant_prefab:
-    prefab: kg_EnchantScroll_Weapon_Blessed_S
-    amount: 1
-  Items:
-  - RagnoriteDevastator_JH
-  - TyraniumDevastator_JH
 # Ashlands
 - enchant_prefab:
     prefab: kg_EnchantScroll_Weapon_S

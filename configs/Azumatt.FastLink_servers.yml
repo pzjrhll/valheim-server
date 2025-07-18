@@ -2,7 +2,7 @@
 # Servers are automatically sorted alphabetically when shown in the list.
 # This file live updates the in-game listing. Feel free to change it while in the main menu.
 
-XXX:
-  address: XXX
-  port: XXX
-  password: XXX
+pzjr_v3_5:
+  address: caiman.dathost.net
+  port: 20005
+  password: rabarbar

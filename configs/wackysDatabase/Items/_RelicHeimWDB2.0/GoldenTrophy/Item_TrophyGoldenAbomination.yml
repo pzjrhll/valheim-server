@@ -1,7 +1,7 @@
 name: TrophyGoldenAbomination
-m_weight: 1
+m_weight: 4
 m_name: Golden Abomination Trophy
-m_description: a rare drop, Haldor would buy this for a hefty price
+m_description: a rare drop, Haldor would buy this for a hefty price                     <color=#edd221>Valuable</color>
 clonePrefabName: TrophyAbomination
 mockName: 
 customIcon: 
@@ -22,4 +22,4 @@ m_animationState: OneHanded
 m_itemType: Misc
 m_toolTier: 0
 m_maxQuality: 1
-m_value: 250
+m_value: 125

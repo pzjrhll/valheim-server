@@ -143,7 +143,7 @@ SE_SET_Equip:
 ShieldStats:
   m_blockPower: 10
   m_blockPowerPerLevel: 0
-  m_timedBlockBonus: 1.2
+  m_timedBlockBonus: 1.5
   m_deflectionForce: 0
   m_deflectionForcePerLevel: 0
 m_maxStackSize: 200

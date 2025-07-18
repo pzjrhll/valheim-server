@@ -6,6 +6,70 @@
     prefab: kg_EnchantScroll_Armor_Blessed_S
     amount: 1
   Items:
+  - DeepNorthArcherChest_RtD
+  - DeepNorthArcherHood_RtD
+  - DeepNorthArcherLegs_RtD
+  - DeepNorthArcherCape_RtD
+  - DeepNorthAssassinChest_RtD
+  - DeepNorthAssassinHood_RtD
+  - DeepNorthAssassinLegs_RtD
+  - DeepNorthAssassinCape_RtD
+  - DeepNorthMonkCape_RtD
+  - DeepNorthMonkChest_RtD
+  - DeepNorthMonkHood_RtD
+  - DeepNorthMonkLegs_RtD
+  - DeepNorthWarriorChest_RtD
+  - DeepNorthWarriorHelmet_RtD
+  - DeepNorthWarriorLegs_RtD
+  - AshLandsArcherChest_RtD
+  - AshLandsArcherHood_RtD
+  - AshLandsArcherLegs_RtD
+  - AshLandsArcherCape_RtD
+  - AshLandsAssassinChest_RtD
+  - AshLandsAssassinHood_RtD
+  - AshLandsAssassinLegs_RtD
+  - AshLandsAssassinCape_RtD
+  - AshLandsMonkCape_RtD
+  - AshLandsMonkChest_RtD
+  - AshLandsMonkHood_RtD
+  - AshLandsMonkLegs_RtD
+  - AshLandsWarriorChest_RtD
+  - AshLandsWarriorHelmet_RtD
+  - AshLAndsWarriorLegs_RtD
+  - MistlandsArcherChest_RtD
+  - MistlandsArcherHood_RtD
+  - MistlandsArcherLegs_RtD
+  - MistlandsArcherCape_RtD
+  - MistlandsAssassinChest_RtD
+  - MistlandsAssassinHood_RtD
+  - MistlandsAssassinLegs_RtD
+  - MistlandsAssassinCape_Rt
+  - MistlandsAssassinCape_Rt
+  - MistlandsMonkCape_RtD
+  - MistlandsMonkChest_RtD
+  - MistlandsMonkHood_RtD
+  - MistlandsMonkLegs_RtD
+  - DeepNorthMageCape_RtD
+  - DeepNorthMageChest_RtD
+  - DeepNorthMageHood_RtD
+  - DeepNorthMageLegs_RtD
+  - DeepNorthArcherChestSO_RtD
+  - DeepNorthArcherHoodSO_RtD
+  - DeepNorthArcherLegsSO_RtD
+  - DeepNorthAssassinChestSO_RtD
+  - DeepNorthAssassinHoodSO_RtD
+  - DeepNorthAssassinLegsSO_RtD
+  - DeepNorthHybridCapeSO_RtD
+  - DeepNorthMageChestSO_RtD
+  - DeepNorthMageHoodSO_RtD
+  - DeepNorthMageLegsSO_RtD
+  - DeepNorthMonkCapeSO_RtD
+  - DeepNorthMonkChestSO_RtD
+  - DeepNorthMonkHoodSO_RtD
+  - DeepNorthMonkLegsSO_RtD
+  - DeepNorthWarriorChestSO_RtD
+  - DeepNorthWarriorHelmetSO_RtD
+  - DeepNorthWarriorLegsSO_RtD
   - HelmetSpellslinger_Mistlands_TW
   - ArmorSpellSlingerChest_Mistlands_TW
   - ArmorSpellslingerLegs_Mistlands_TW
@@ -32,6 +96,26 @@
     prefab: kg_EnchantScroll_Armor_Blessed_A
     amount: 1
   Items:
+  - PlainsArcherChest_RtD
+  - PlainsArcherHood_RtD
+  - PlainsArcherLegs_RtD
+  - PlainsArcherCape_RtD
+  - PlainsAssassinChest_RtD
+  - PlainsAssassinHood_RtD
+  - PlainsAssassinLegs_RtD
+  - PlainsAssassinCape_RtD
+  - PlainsMonkCape_RtD
+  - PlainsMonkChest_RtD
+  - PlainsMonkHood_RtD
+  - PlainsMonkLegs_RtD
+  - PlainsMageCape_RtD
+  - PlainsMageChest_RtD
+  - PlainsMageHood_RtD
+  - PlainsMageLegs_RtD
+  - MuontainMageCape_RtD
+  - MountainMageChest_RtD
+  - MountainMageHood_RtD
+  - MountainMageLegs_RtD
   - HelmetSpellslinger_Plains_TW
   - ArmorSpellSlingerChest_Plains_TW
   - ArmorSpellslingerLegs_Plains_TW
@@ -58,6 +142,17 @@
     prefab: kg_EnchantScroll_Armor_Blessed_B
     amount: 1
   Items:
+  - MountainArcherChest_RtD
+  - MountainArcherHelmet_RtD
+  - MountainArcherLegs_RtD
+  - MountainAssassinChest_RtD
+  - MountainAssassinHood_RtD
+  - MountainAssassinLegs_RtD
+  - MountainHybridCape_RtD
+  - MountainMonkCape_RtD
+  - MountainMonkChest_RtD
+  - MountainMonkHood_RtD
+  - MountainMonkLegs_RtD
   - HelmetSpellslinger_Mountain_TW
   - ArmorSpellSlingerChest_Mountain_TW
   - ArmorSpellslingerLegs_Mountain_TW
@@ -84,6 +179,18 @@
     prefab: kg_EnchantScroll_Armor_Blessed_C
     amount: 1
   Items:
+  - SwampAssassinCape_RtD
+  - SwampAssassinChest_RtD
+  - SwampAssassinHood_RtD
+  - SwampAssassinLegs_RtD
+  - SwampMonkCape_RtD
+  - SwampMonkChest_RtD
+  - SwampMonkHood_RtD
+  - SwampMonkLegs_RtD
+  - SwampMageCape_RtD
+  - SwampMageChest_RtD
+  - SwampMageHood_RtD
+  - SwampMageLegs_RtD
   - HelmetSpellslinger_Swamp_TW
   - ArmorSpellSlingerChest_Swamp_TW
   - ArmorSpellslingerLegs_Swamp_TW
@@ -110,6 +217,17 @@
     prefab: kg_EnchantScroll_Armor_Blessed_D
     amount: 1
   Items:
+  - BlackForestArcherChest_RtD
+  - BlackForestArcherHelmet_RtD
+  - BlackForestArcherLegs_RtD
+  - BlackForestHardLeatherCape_RtD
+  - BlackForestMonkCape_RtD
+  - BlackForestMonkChest_RtD
+  - BlackForestMonkHood_RtD
+  - BlackForestMonkLegs_RtD
+  - BlackForestMageChest_Rtd
+  - BlackForestMageHood_RtD
+  - BlackForestMageLegs_RtD
   - HelmetSpellslinger_BlackForest_TW
   - ArmorSpellSlingerChest_BlackForest_TW
   - ArmorSpellslingerLegs_BlackForest_TW

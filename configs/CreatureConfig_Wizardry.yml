@@ -1,24 +1,26 @@
-Sheep_TW:
-  health per star: 0.35
 GreydwarfMage_TW:
-  health: 0.8
-  damage per star: 0.2
+  damage: 1.1
+  damage per star: 0.1
   effect:
    Splitting: 0
 SkeletonMage_TW:
-  damage per star: 0.2
+  damage: 1.1
+  damage per star: 0.1
   effect:
    Splitting: 0
 FenringMage_TW:
-  damage per star: 0.2
+  damage: 1.1
+  damage per star: 0.1
   effect:
    Splitting: 0
 GoblinMage_TW:
-  damage per star: 0.2
+  damage: 1.1
+  damage per star: 0.1
   effect:
    Splitting: 0
 CorruptedDvergerMage_TW:
-  damage per star: 0.2
+  damage: 1.1
+  damage per star: 0.1
   effect:
    Splitting: 0
 Staff_root_TW:
@@ -26,16 +28,19 @@ Staff_root_TW:
   infusion:
    Other: 0
   effect:
-   Other: 0
+   Quick: 0
+   Curious: 0
+   Splitting: 0
+   Armored: 0
 SummonedSurtling_TW:
-  damage:
-   Fire: 0.5
   infusion:
    Other: 0
   effect:
+   Quick: 100
    Other: 0
 SummonedGolem_TW:
   infusion:
    Other: 0
   effect:
+   Quick: 100
    Other: 0

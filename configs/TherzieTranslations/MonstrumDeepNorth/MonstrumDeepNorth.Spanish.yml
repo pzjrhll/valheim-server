@@ -131,9 +131,6 @@ arcticserpent_TW : "Serpiente de hielo"
 arcticwolf_TW : "Lobo ártico"
 arcticwolfcub_TW : "Cachorro de lobo ártico"
 jotunnwolf_TW : " Huargo de Jotunn"
-frostfenring_TW: "Discípulo de Hielo"
-firefenring_TW: "Discípulo de fuego"
-arcticbat_TW: "Murciélago de hielo"
 ##NIGHT CREATURES##
 daggerfang_TW : "Desgarrador"
 surtrbrute_TW : "Ejecutor"
@@ -177,10 +174,6 @@ scrolltext_stormherald_description_TW: "Descifras los glifos de Fenriri: 'Vident
 runestone_stormherald_TW : "Jinetes de la tormenta"
 runestone_stormherald_description_TW : "Una nube oscura se apodera del templo de la montaña, poderosas tormentas hacen vibrar el aire mientras escuchas un aullido inquietante proveniente de la cima.."
 stormwolf_TW: "Lobo de tormenta"
-
-stormtemple_hall: "Salón congelado"
-stormtemple_stair: "Corazón de la tormenta"
-stormtemple_altar: "Templo de la Tormenta"
 
 mappin_stormherald_TW: "Heraldo de la tormenta"
 stormherald_speech1: "¡Lord Fenris pondrá a este mundo de rodillas mortal!"

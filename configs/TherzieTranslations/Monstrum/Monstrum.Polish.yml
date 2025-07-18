@@ -53,7 +53,6 @@ trophy_obsidiangolem_TW_lore: "Obsydianowe golemy z gór przebijają swoją zdob
 trophy_shark_TW : "Trofeum żarłacza krwawego"
 trophy_shark_description_TW : "Będziemy potrzebować większej łodzi."
 trophy_shark_TW_lore : "Wystarczy kropla krwi, by te potworne drapieżniki znalazły swoją ofiarę."
-
 ##MONSTERS##
 
 ##MEADOWS##
@@ -77,6 +76,7 @@ prowler_TW: "Pantera"
 prowlercub_TW: "Młoda Pantera"
 ##OCEAN##
 shark_TW : "Żarłacz krwawy"
+
 
 ##ASMODEUS BOSS##
 asmodeus_discover_TW: "Świątynia Plugawego Języka"
@@ -147,6 +147,7 @@ food_cookedfoxmeat_TW: "Upieczone mięso lisa"
 food_cookedfoxmeat_description_TW: "Jeden mały kęs wypełnia żołądek człowieka!"
 food_foxjerky_TW: "Suszone mięso z lisa"
 food_foxjerky_description_TW: "Przyprawione miodem, żeby trzymać cię na nogach!"
+
 food_bearsteak_TW: "Surowy stek niedźwiedzia"
 food_bearsteak_description_TW: "Kawałek delikatnego mięsa niedźwiedzia."
 food_cookedbearsteak_TW: "Upieczony stek niedźwiedzia"
@@ -165,6 +166,7 @@ food_cookedsharkmeat_TW : "Gotowane mięso rekina"
 food_cookedsharkmeat_description_TW : "Stek z morza, nie możesz się powstrzymać od ślinienia się."
 food_sharkfin_TW : "Płetwa rekina"
 food_sharkfin_description_TW : "Można z nich zrobić pyszną zupę, a może nawet zapoczątkować handel zagrażający gatunkowi..."
+
 
 ##RAVEN##
 BossStones_topic_TW: "Odkryłeś miejsce mocy!"

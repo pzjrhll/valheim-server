@@ -49,7 +49,7 @@ SeData:
   m_healthPerTickMinHealthPercentage: 0
   m_healthPerTick: 0
   m_healthOverTime: 25
-  m_healthOverTimeDuration: 10
+  m_healthOverTimeDuration: 5
   m_healthOverTimeInterval: 1
   m_staminaOverTime: 0
   m_staminaOverTimeDuration: 0

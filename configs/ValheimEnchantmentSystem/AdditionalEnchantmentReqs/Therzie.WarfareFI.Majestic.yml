@@ -18,6 +18,8 @@
   - WarpikeNjord_TW
   - WarpikeSurtr_TW
   - DualAxeKrom_TW
+  - ThrowAxeNjord_TW
+  - ThrowAxeSurtr_TW
   - BattleaxeCrystalJotunnheim_TW
   - BattleaxeCrystalMuspelheim_TW
   - DualSpearSvigaFrekk_TW
@@ -61,9 +63,6 @@
   - ShieldSurtr_TW
   - ShieldNjordBuckler_TW
   - ShieldSurtrBuckler_TW
-  - DualKnifeNjord_TW
-  - DualKnifeSurtr_TW
-  - StaffVulkarion_TW
 - enchant_prefab:
     prefab: kg_EnchantScroll_Armor_S
     amount: 2

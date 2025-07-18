@@ -1,67 +1,3 @@
-Explorers Backpack:
-  description: "A simple backpack that can be taken on adventures."
-  size: 5x3
-  appearance:
-    Sleepbag: visible
-    BackpackFlap: visible
-    RingBottomLeft: visible
-    MetalclipLeft: visible
-    ToolstrapTop: visible
-    PouchFront: visible
-    PouchLeft: visible
-    Knifesheath: visible
-    Knife: visible
-    Pickaxe: visible
-    Pot: visible
-    Teapot: visible
-    MetalclipFrontLeft: visible
-    MetalclipFrontRight: visible
-    BackpackBody: visible
-    BackpackStrapTop: visible
-    BackpackStrapBottom: visible
-    ToolstrapBottom: visible
-  valid items:
-   - ore
-   - metal
-   - food
-   - potion
-   - woods
-   - trophy
-   - boss trophy
-   - valuable
-   - seed
-   - crop
-   - stackable
-   - ammo
-  weight factor: 0.9
-  crafting:
-    station: Workbench
-    level: 1
-    costs:
-      BronzeNails: 5
-      DeerHide: 10
-      LeatherScraps: 10
-  upgrade:
-    1:
-      Iron: 5
-      ElderBark: 10
-      Guck: 2
-      size: 6x3
-    2:
-      Silver: 5
-      WolfPelt: 3
-      JuteRed: 2
-      size: 5x4
-    3:
-      BlackMetal: 5
-      LinenThread: 10
-      LoxPelt: 2
-      size: 6x4
-    4:
-      JuteBlue: 5
-      ScaleHide: 5
-      Carapace: 5
-      size: 7x4
 Simple Backpack:
   description: "A simple backpack capable of holding a few items"
   size: 2x2
@@ -84,23 +20,10 @@ Simple Backpack:
     BackpackStrapTop: hidden
     BackpackStrapBottom: 000000
     ToolstrapBottom: e33900
-  valid items:
-   - ore
-   - metal
-   - food
-   - potion
-   - woods
-   - trophy
-   - boss trophy
-   - valuable
-   - seed
-   - crop
-   - stackable
-   - ammo
   weight factor: 0.9
   crafting:
     station: Workbench
-    level: 1
+    level: 2
     costs:
       DeerHide: 10
       LeatherScraps: 5
@@ -132,16 +55,22 @@ Mining Backpack:
     BackpackStrapBottom: 000000
     ToolstrapBottom: e33900
   valid items:
-    - ore
-    - metal
-    - ThoradusBar_TW
-    - TyraniumBar_TW
-    - RagnoriteBar_TW
-    - LokvyrBar_TW
-    - LokvyrOre_TW
-    - RagnoriteOre_TW
-    - TyraniumOre_TW
-  weight factor: 0.75
+    - CopperOre
+    - Copper
+    - CopperScrap
+    - TinOre
+    - Tin
+    - BronzeScrap
+    - Bronze
+    - SilverOre
+    - Silver
+    - IronScrap
+    - Iron
+    - BlackMetalScrap
+    - BlackMetal
+    - FlametalOreNew
+    - FlametalNew
+  weight factor: 0.7
   crafting:
     station: Forge
     level: 1
@@ -170,8 +99,8 @@ Mining Backpack:
       Carapace: 10
       Mandible: 5
       size: 6x4
-Foraging Backpack:
-  description: "This backpack will only hold Wood and Rock types, helps reduce the weight."
+Lumberjack Backpack:
+  description: "This backpack will only hold Wood types, helps reduce the weight."
   size: 3x3
   appearance:
     Sleepbag: hidden
@@ -183,12 +112,12 @@ Foraging Backpack:
     PouchLeft: hidden
     Knifesheath: hidden
     Knife: hidden
-    Pickaxe: 71fa52
+    Pickaxe: f2fc32
     Pot: 4d3209
     Teapot: hidden
     MetalclipFrontLeft: visible
     MetalclipFrontRight: visible
-    BackpackBody: 71fa52
+    BackpackBody: f2fc32
     BackpackStrapTop: hidden
     BackpackStrapBottom: 000000
     ToolstrapBottom: 4d3209
@@ -199,27 +128,11 @@ Foraging Backpack:
     - FineWood
     - YggdrasilWood
     - Blackwood
-    - Stone
-    - BlackMarble
-    - Flint
-    - Coal
-    - SulfurStone
-    - Grausten
-    - BeechSeeds
-    - BirchSeeds
-    - AncientSeed
-    - Acorn
-    - FirCone
-    - PineCone
-    - VineberrySeeds
     - EnchantedWoodBlackForest_TW
     - EnchantedWoodSwamp_TW
     - EnchantedWoodMountain_TW
     - EnchantedWoodPlains_TW
     - EnchantedWoodMistlands_TW
-    - BorealWood_TW
-    - BorealPineWood_TW
-    - GlacierStone_TW
   weight factor: 0.5
   crafting:
     station: Forge
@@ -245,7 +158,7 @@ Foraging Backpack:
       LoxPelt: 5
       size: 5x4
     4:
-      BronzeScrap: 5
+      Iron: 5
       Carapace: 10
       Mandible: 5
       size: 6x4
@@ -287,6 +200,82 @@ Treasures Backpack:
       ElderBark: 10
       Guck: 2
       size: 4x4
+Foraging Backpack:
+  description: "This backpack will only hold Wood and Rock types, helps reduce the weight."
+  size: 3x3
+  appearance:
+    Sleepbag: hidden
+    BackpackFlap: 4d3209
+    RingBottomLeft: 4d3209
+    MetalclipLeft: hidden
+    ToolstrapTop: 4d3209
+    PouchFront: 4d3209
+    PouchLeft: hidden
+    Knifesheath: hidden
+    Knife: hidden
+    Pickaxe: 71fa52
+    Pot: 4d3209
+    Teapot: hidden
+    MetalclipFrontLeft: visible
+    MetalclipFrontRight: visible
+    BackpackBody: 71fa52
+    BackpackStrapTop: hidden
+    BackpackStrapBottom: 000000
+    ToolstrapBottom: 4d3209
+  valid items:
+    - Wood
+    - ElderBark
+    - RoundLog
+    - FineWood
+    - YggdrasilWood
+    - Blackwood
+    - EnchantedWoodBlackForest_TW
+    - EnchantedWoodSwamp_TW
+    - EnchantedWoodMountain_TW
+    - EnchantedWoodPlains_TW
+    - EnchantedWoodMistlands_TW
+    - Stone
+    - BlackMarble
+    - Flint
+    - Coal
+    - SulfurStone
+    - Grausten
+    - BeechSeeds
+    - BirchSeeds
+    - AncientSeed
+    - Acorn
+    - FirCone
+    - PineCone
+    - VineberrySeeds
+  weight factor: 0.5
+  crafting:
+    station: Forge
+    level: 1
+    costs:
+      Bronze: 5
+      DeerHide: 10
+      LeatherScraps: 10
+  upgrade:
+    1:
+      Iron: 5
+      ElderBark: 10
+      Guck: 2
+      size: 4x3
+    2:
+      Silver: 5
+      WolfPelt: 10
+      JuteRed: 5
+      size: 5x3 
+    3:
+      BlackMetal: 5
+      LinenThread: 10
+      LoxPelt: 5
+      size: 5x4
+    4:
+      BronzeScrap: 5
+      Carapace: 10
+      Mandible: 5
+      size: 6x4
 Troll Backpack:
   description: "The troll armor has been tucked away tightly inside its pouches granting users the power of Sneak"
   size: 3x3
@@ -310,20 +299,7 @@ Troll Backpack:
     BackpackStrapTop: hidden
     BackpackStrapBottom: 000000
     ToolstrapBottom: 34baeb
-  valid items:
-   - ore
-   - metal
-   - food
-   - potion
-   - woods
-   - trophy
-   - boss trophy
-   - valuable
-   - seed
-   - crop
-   - stackable
-   - ammo
-  weight factor: 0.9
+  weight factor: 0.8
   crafting:
     station: Forge
     level: 1
@@ -353,6 +329,113 @@ Troll Backpack:
       BoneFragments: 12
       Carapace: 10
       size: 6x4
+# Weapons and Armor Backpacks
+Armory Backpack:
+  description: "This backpack will hold a lot of your unused armor"
+  size: 6x4
+  appearance:
+    Sleepbag: f44336
+    BackpackFlap: f44336
+    RingBottomLeft: f44336
+    MetalclipLeft: hidden
+    ToolstrapTop: f44336
+    PouchFront: f44336
+    PouchLeft: hidden
+    Knifesheath: hidden
+    Knife: hidden
+    Pickaxe: yellow
+    Pot: hidden
+    Teapot: hidden
+    MetalclipFrontLeft: visible
+    MetalclipFrontRight: visible
+    BackpackBody: black
+    BackpackStrapTop: hidden
+    BackpackStrapBottom: 000000
+    ToolstrapBottom: f44336
+  valid items:
+    - helmet
+    - chest
+    - pants
+    - cape
+    - armor
+  weight factor: 1
+  crafting:
+    station: Forge
+    level: 1
+    costs:
+      LeatherScraps: 10
+      DeerHide: 10
+      BronzeNails: 5
+  upgrade:
+    1:
+      Iron: 5
+      ElderBark: 10
+      Guck: 2
+      size: 7x4
+Weaponry Backpack:
+  description: "This backpack will hold a lot of your unused weapons"
+  size: 6x4
+  appearance:
+    Sleepbag: ca5df5
+    BackpackFlap: ca5df5
+    RingBottomLeft: ca5df5
+    MetalclipLeft: hidden
+    ToolstrapTop: ca5df5
+    PouchFront: ca5df5
+    PouchLeft: hidden
+    Knifesheath: hidden
+    Knife: hidden
+    Pickaxe: yellow
+    Pot: hidden
+    Teapot: hidden
+    MetalclipFrontLeft: visible
+    MetalclipFrontRight: visible
+    BackpackBody: black
+    BackpackStrapTop: hidden
+    BackpackStrapBottom: 000000
+    ToolstrapBottom: ca5df5
+  valid items:
+    - axes
+    - clubs
+    - knives
+    - pickaxes
+    - polearms
+    - spears
+    - swords
+    - bows
+    - crossbows
+    - weapon
+    - round shield
+    - tower shield
+    - shield
+    - tool
+    - special
+    - arrows
+    - bolts
+    - FistFenrirClaw
+    - FistFlint_TW
+    - FistSilver_TW
+    - FistBlackmetal_TW
+    - FistQueen_TW
+    - FistBronze_TW
+    - FistChitin_TW
+    - FistIron_TW
+    - FistBlackmetal_TW
+    - FistDvergr_TW
+  weight factor: 1
+  crafting:
+    station: Forge
+    level: 1
+    costs:
+      LeatherScraps: 10
+      DeerHide: 10
+      BronzeNails: 5
+  upgrade:
+    1:
+      Iron: 5
+      ElderBark: 10
+      Guck: 2
+      size: 7x4
 Food Backpack:
   description: "This backpack will only hold your food"
   size: 4x3
@@ -378,7 +461,6 @@ Food Backpack:
   valid items:
     - NeckTail
     - SerpentMeat
-    - BoneMawSerpentMeat
     - CookedEntrails
     - HoneyGlazedDeer
     - HoneyGlazedMeat
@@ -388,6 +470,7 @@ Food Backpack:
     - JellyGlazedHare
     - JellyGlazedSeeker
     - CookedEntrails
+    - ElkJerky
     - LoxJerky_JH
     - SeekerJerky_JH
     - FishJerky_JH
@@ -396,16 +479,8 @@ Food Backpack:
     - SerpentJerky_JH
     - FishMeatSkewer
     - FishNLoxSkewer
-    - SharkMeat_TW
-    - SharkFin_TW
-    - ArcticSerpentMeat_TW
-    - UncookedBerryCakePlains_TW
-    - MushroomWitcheye_TW
-    - MushroomDeathcap_TW
-    - MushroomWizardbutter_TW
-    - MushroomDevilstongue_TW
     - food
-  weight factor: 1
+  weight factor: 0.8
   crafting:
     station: Forge
     level: 1
@@ -419,213 +494,3 @@ Food Backpack:
       ElderBark: 10
       Guck: 2
       size: 5x3
-Trophy Backpack:
-  description: "This backpack will only hold the head of your enemies."
-  size: 6x4
-  appearance:
-    Sleepbag: hidden
-    BackpackFlap: fcc1ff
-    RingBottomLeft: e33900
-    MetalclipLeft: hidden
-    ToolstrapTop: e33900
-    PouchFront: fcc1ff
-    PouchLeft: hidden
-    Knifesheath: hidden
-    Knife: hidden
-    Pickaxe: hidden
-    Pot: hidden
-    Teapot: hidden
-    MetalclipFrontLeft: visible
-    MetalclipFrontRight: visible
-    BackpackBody: 8a2be2
-    BackpackStrapTop: hidden
-    BackpackStrapBottom: 000000
-    ToolstrapBottom: e33900
-  valid items:
-    - trophy
-    - boss trophy
-  weight factor: 1
-  crafting:
-    station: Workbench
-    level: 2
-    costs:
-      DeerHide: 10
-      LeatherScraps: 5
-  upgrade:
-    1:
-      DeerHide: 10
-      LeatherScraps: 5
-      size: 7x4
-Scroll Backpack:
-  description: "This backpack will only hold enchanting scrolls"
-  size: 2x4
-  appearance:
-    Sleepbag: hidden
-    BackpackFlap: visible
-    RingBottomLeft: visible
-    MetalclipLeft: hidden
-    ToolstrapTop: visible
-    PouchFront: visible
-    PouchLeft: hidden
-    Knifesheath: visible
-    Knife: visible
-    Pickaxe: hidden
-    Pot: hidden
-    Teapot: hidden
-    MetalclipFrontLeft: visible
-    MetalclipFrontRight: visible
-    BackpackBody: de8359
-    BackpackStrapTop: hidden
-    BackpackStrapBottom: de8359
-    ToolstrapBottom: visible
-  valid items:
-    - kg_EnchantScroll_Armor_S
-    - kg_EnchantScroll_Armor_Blessed_S
-    - kg_EnchantScroll_Weapon_S
-    - kg_EnchantScroll_Weapon_Blessed_S
-    - kg_EnchantScroll_Armor_A
-    - kg_EnchantScroll_Armor_Blessed_A
-    - kg_EnchantScroll_Weapon_A
-    - kg_EnchantScroll_Weapon_Blessed_A
-    - kg_EnchantScroll_Armor_B
-    - kg_EnchantScroll_Armor_Blessed_B
-    - kg_EnchantScroll_Weapon_B
-    - kg_EnchantScroll_Weapon_Blessed_B
-    - kg_EnchantScroll_Armor_C
-    - kg_EnchantScroll_Armor_Blessed_C
-    - kg_EnchantScroll_Weapon_C
-    - kg_EnchantScroll_Weapon_Blessed_C
-    - kg_EnchantScroll_Armor_D
-    - kg_EnchantScroll_Armor_Blessed_D
-    - kg_EnchantScroll_Weapon_D
-    - kg_EnchantScroll_Weapon_Blessed_D
-    - kg_EnchantScroll_Armor_F
-    - kg_EnchantScroll_Armor_Blessed_F
-    - kg_EnchantScroll_Weapon_F
-    - kg_EnchantScroll_Weapon_Blessed_F
-  weight factor: 1
-  crafting:
-    station: Workbench
-    level: 1
-    costs:
-      DeerHide: 10
-      LeatherScraps: 5
-  upgrade:
-    1:
-      BlackBearPelt_TW: 5
-      Bronze: 2
-      size: 3x4
-    2:
-      RottenPelt_TW: 5
-      Iron: 2
-      size: 4x4
-    3:
-      GrizzlyBearPelt_TW: 5
-      Silver: 2
-      size: 5x4
-    4:
-      LoxPelt: 5
-      BlackMetal: 2
-      size: 6x4
-Ammo Backpack:
-  description: "This backpack will only hold ammo, you cannot use them from within"
-  size: 6x4
-  appearance:
-    Sleepbag: hidden
-    BackpackFlap: ffebb0
-    RingBottomLeft: e06666
-    MetalclipLeft: hidden
-    ToolstrapTop: hidden
-    PouchFront: ffebb0
-    PouchLeft: hidden
-    Knifesheath: hidden
-    Knife: hidden
-    Pickaxe: hidden
-    Pot: hidden
-    Teapot: hidden
-    MetalclipFrontLeft: visible
-    MetalclipFrontRight: visible
-    BackpackBody: e06666
-    BackpackStrapTop: hidden
-    BackpackStrapBottom: 000000
-    ToolstrapBottom: hidden
-  weight factor: 1
-  valid items:
-    - ammo
-  crafting:
-    station: Workbench
-    level: 2
-    costs:
-      DeerHide: 10
-      LeatherScraps: 5
-  upgrade:
-    1:
-      DeerHide: 10
-      LeatherScraps: 5
-      size: 7x4
-Wishbone Backpack:
-  description: "The wishbone has been tucked away tightly inside its pouches granting users the power of finding hidden things."
-  size: 5x3
-  effect: Wishbone
-  appearance:
-    BackpackFlap: 68e4d9
-    PouchFront: 68e4d9
-    BackpackStrapBottom: 68e4d9
-    RingBottomLeft: 000000
-    BackpackBody: visible
-    MetalclipFrontLeft: visible
-    MetalclipFrontRight: visible
-    Sleepbag: hidden
-    MetalclipLeft: hidden
-    PouchLeft: hidden
-    Knifesheath: hidden
-    Knife: hidden
-    Pickaxe: hidden
-    Pot: hidden
-    Teapot: hidden
-    BackpackStrapTop: hidden
-    ToolstrapTop: hidden
-    ToolstrapBottom: hidden
-  valid items:
-   - ore
-   - metal
-   - food
-   - potion
-   - woods
-   - trophy
-   - boss trophy
-   - valuable
-   - seed
-   - crop
-   - stackable
-   - ammo
-  weight factor: 0.9
-  crafting:
-    station: Forge
-    level: 1
-    costs:
-      Bronze: 5
-      DeerHide: 10
-      LeatherScraps: 10
-      Wishbone: 1
-  upgrade:
-    1:
-      Iron: 5
-      ElderBark: 10
-      Guck: 2
-      size: 6x3
-    2:
-      Silver: 5
-      WolfPelt: 3
-      JuteRed: 2
-      size: 5x4
-    3:
-      BlackMetal: 5
-      LinenThread: 10
-      LoxPelt: 2
-      size: 6x4
-    4:
-      JuteBlue: 5
-      ScaleHide: 5
-      Carapace: 5
-      size: 7x4

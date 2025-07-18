@@ -1,0 +1,137 @@
+{
+  "TargetFile": "iteminfo.json",
+  "Author": "Majestic",
+  "RequireAll": true,
+  "Patches": [
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Swords')].Items",
+      "Action": "AppendAll",
+      "Value": ["SwordNiedhogg", "THSwordSlayer", "SwordDyrnwyn"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Swords')].ItemsByBoss.defeated_fader",
+      "Action": "AppendAll",
+      "Value": ["SwordNiedhogg", "THSwordSlayer", "SwordDyrnwyn"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Axes')].Items",
+      "Action": "AppendAll",
+      "Value": ["AxeBerzerkr"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Axes')].ItemsByBoss.defeated_fader",
+      "Action": "AppendAll",
+      "Value": ["AxeBerzerkr"]
+    },
+	
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Staffs')].Items",
+      "Action": "AppendAll",
+      "Value": ["StaffClusterbomb", "StaffLightning", "StaffRedTroll", "StaffGreenRoots"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Staffs')].ItemsByBoss.defeated_fader",
+      "Action": "AppendAll",
+      "Value": ["StaffClusterbomb", "StaffLightning", "StaffRedTroll", "StaffGreenRoots"]
+    },
+	
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Clubs')].Items",
+      "Action": "AppendAll",
+      "Value": ["MaceEldner"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Clubs')].ItemsByBoss.defeated_fader",
+      "Action": "AppendAll",
+      "Value": ["MaceEldner"]
+    },
+	
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Spears')].Items",
+      "Action": "AppendAll",
+      "Value": ["SpearSplitner"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Spears')].ItemsByBoss.defeated_fader",
+      "Action": "AppendAll",
+      "Value": ["SpearSplitner"]
+    },
+	
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Bows')].Items",
+      "Action": "AppendAll",
+      "Value": ["BowAshlands"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'Bows')].ItemsByBoss.defeated_fader",
+      "Action": "AppendAll",
+      "Value": ["BowAshlands"]
+    },
+	
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'RoundShields')].Items",
+      "Action": "AppendAll",
+      "Value": ["ShieldFlametal"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'RoundShields')].ItemsByBoss.defeated_fader",
+      "Action": "AppendAll",
+      "Value": ["ShieldFlametal"]
+    },
+	
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'TowerShields')].Items",
+      "Action": "AppendAll",
+      "Value": ["ShieldFlametalTower"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'TowerShields')].ItemsByBoss.defeated_fader",
+      "Action": "AppendAll",
+      "Value": ["ShieldFlametalTower"]
+    },
+	
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'ChestArmor')].Items",
+      "Action": "AppendAll",
+      "Value": ["ArmorAshlandsMediumChest", "ArmorMageChest_Ashlands", "ArmorFlametalChest"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'ChestArmor')].ItemsByBoss.defeated_fader",
+      "Action": "AppendAll",
+      "Value": ["ArmorAshlandsMediumChest", "ArmorMageChest_Ashlands", "ArmorFlametalChest"]
+    },
+	
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'LegsArmor')].Items",
+      "Action": "AppendAll",
+      "Value": ["ArmorAshlandsMediumlegs", "ArmorMageLegs_Ashlands", "ArmorFlametalLegs"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'LegsArmor')].ItemsByBoss.defeated_fader",
+      "Action": "AppendAll",
+      "Value": ["ArmorAshlandsMediumlegs", "ArmorMageLegs_Ashlands", "ArmorFlametalLegs"]
+    },
+	
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'HeadArmor')].Items",
+      "Action": "AppendAll",
+      "Value": ["HelmetAshlandsMediumHood", "HelmetMage_Ashlands", "HelmetFlametal"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'HeadArmor')].ItemsByBoss.defeated_fader",
+      "Action": "AppendAll",
+      "Value": ["HelmetAshlandsMediumHood", "HelmetMage_Ashlands", "HelmetFlametal"]
+    },
+	
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'ShouldersArmor')].Items",
+      "Action": "AppendAll",
+      "Value": ["CapeAsksvin", "CapeAsh"]
+    },
+    {
+      "Path": "$.ItemInfo[?(@.Type == 'ShouldersArmor')].ItemsByBoss.defeated_fader",
+      "Action": "AppendAll",
+      "Value": ["CapeAsksvin", "CapeAsh"]
+    }
+  ]
+}
