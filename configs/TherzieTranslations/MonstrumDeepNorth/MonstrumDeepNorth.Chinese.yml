@@ -9,10 +9,55 @@ piece_rug_ursabear_TW : "霜熊地毯"
 piece_rug_mammoth_TW : "猛犸象地毯"
 
 ##ITEMS##
-food_drakeomelet_TW : "香辣煎蛋卷"
-food_drakeomelet_description_TW : "龙蛋富含蛋白质，冲击心灵的食物."
 surtr_dragonegg_TW : "火龙蛋"
 surtr_dragonegg_description_TW : "一颗来自北方巢穴的火龙蛋."
+
+dungeonchest_TW : "战利品"
+
+##FOOD##
+food_drakkarchili_deepnorth_TW : "龙椒"
+food_drakkarchili_description_deepnorth_TW : "一种罕见的辣椒，辣的让你流泪！"
+food_direwolfmeatskewer_deepnorth_TW : "北地狼肉串"
+food_direwolfmeatskewer_description_deepnorth_TW : "蘑菇和狼肉搭配均衡，真正的美味！"
+food_heartscream_deepnorth_TW : "心声"
+food_heartscream_description_deepnorth_TW : "你尖叫，我们尖叫，我……"
+food_helweedsoup_deepnorth_TW : "地狱灌木汤"
+food_helweedsoup_description_deepnorth_TW : "它刺激你的喉咙，让你的胃火辣辣的！"
+food_drakeomelet_deepnorth_TW : "辛辣煎蛋卷"
+food_drakeomelet_description_deepnorth_TW : "龙蛋富含蛋白质，味道直击心灵。"
+food_meatpie_deepnorth_TW : "北地肉饼"
+food_meatpie_description_deepnorth_TW : "北方深境的特色肉食料理！"
+food_meatpieuncooked_deepnorth_TW : "未烘培的北地肉饼"
+food_meatpieuncooked_description_deepnorth_TW : "充满北地异国情调的肉类混合香草，需要在烤箱中烘培。"
+food_arcticserpentmeat_deepnorth_TW : "北地蛟龙肉"
+food_arcticserpentmeat_description_deepnorth_TW : "一片来自深北的寒冷蛟龙肉。"
+food_cookedarcticserpentmeat_deepnorth_TW : "烤北地蛟龙肉"
+food_cookedarcticserpentmeat_description_deepnorth_TW : "一片烤熟的北地蛟龙肉，有着独特的口感！"
+food_arcticwolfmeat_deepnorth_TW : "北地狼肉"
+food_arcticwolfmeat_description_deepnorth_TW : "一块来自深北地区的北地狼肉。"
+food_cookedarcticwolfmeat_deepnorth_TW : "烤北地狼肉"
+food_cookedarcticwolfmeat_description_deepnorth_TW : "一块烤熟的北地狼肉，有着奇异的清香！"
+food_mammothmeat_deepnorth_TW : "猛犸象肉"
+food_mammothmeat_description_deepnorth_TW : "一大块来自深北地区的猛犸象肉。"
+food_cookedmammothmeat_deepnorth_TW : "烤熟的猛犸象肉"
+food_cookedmammothmeat_description_deepnorth_TW : "一块熟的美味猛犸象肉，快进我的肚子里！"
+food_arcticstew_deepnorth_TW : "深北炖菜"
+food_arcticstew_description_deepnorth_TW : "一种美味的炖菜，饱腹且温暖，可以增加你的健康恢复。"
+food_fishpie_deepnorth_TW : "极地海鲜派"
+food_fishpie_description_deepnorth_TW : "终极海鲜美味！"
+food_fishpieuncooked_deepnorth_TW : "未烘培的极地海鲜派"
+food_fishpieuncooked_description_deepnorth_TW : "有弹性的海鲜馅饼胚子，需要在烤箱里烘培。"
+food_shroomtart_deepnorth_TW : "蘑菇菌饼"
+food_shroomtart_description_deepnorth_TW : "一道甜美的蘑菇甜点！"
+food_shroomtartuncooked_deepnorth_TW : "未烘培的蘑菇菌饼"
+food_shroomtartuncooked_description_deepnorth_TW : "美味的混合菌类，需要在烤箱里烘培。"
+
+food_arcticbearsteak_deepnorth_TW : "霜熊肋排"
+food_arcticbearsteak_description_deepnorth_TW : "一块霜熊肋排"
+food_arcticcookedbearsteak_deepnorth_TW : "烤霜熊肋排"
+food_arcticcookedbearsteak_description_deepnorth_TW : "最好搭配美味的酱汁！"
+
+
 
 ##DEEP NORTH TROPHIES##
 trophy_arcticbear_TW : "霜熊战利品"
@@ -91,7 +136,7 @@ arcticwolf_TW : "北地狼"
 arcticwolfcub_TW : "北地狼幼崽"
 jotunnwolf_TW : "约顿狼"
 ##NIGHT CREATURES##
-daggerfang_TW : "刃牙"
+daggerfang_TW : "棘齿兽"
 surtrbrute_TW : "执法者"
 surtrlegionnaire_TW : "恶魔先锋"
 surtrimp_TW : "魔童"
@@ -104,12 +149,16 @@ stormfenring_TW : "风暴使者"
 stormfenringcultist_TW : "芬里侍从"
 ##LOCATIONS##
 jotunnlairgateway_TW : "冰巨人巢穴"
-frozenchest_TW : "冰冻的躯体"
+frozenchest_TW : "冰冻宝箱"
 frozenmammothbones_TW : "冰冻的猛犸骨头"
 mappin_stonesDeepNorth_TW : "力量之地"
 mappin_jotunndungeon_TW : "冰巨人要塞"
-jotunndungeonbossroom_TW : "酋长的宝座"
-jotunndungeongateway_TW : "冰冻大厅"
+jotunndungeongateway_entrance_TW : "冰冻深渊"
+jotunndungeongateway_mainhall_TW : "冰封要塞"
+jotunndungeongateway_bossroom_TW : "酋长的王座"
+lorestoneodin_TW : "传说石碑"
+lorestoneodin_label_TW : "众神之王"
+lorestoneodin_description_TW : "独眼之父，伟大的众神之王，战士的保护者，无论原因如何，我希望有一天能到达你的殿堂，尽情享受和战斗，直到时间不再能保存。在胡金和穆宁的陪伴下，他骑着他信任的骏马斯莱普尼尔，统治着瓦尔哈拉，战士和蜂蜜酒的殿堂."
 
 
 ##STORM HERALD##
@@ -150,6 +199,9 @@ boss_brutalis_speech6 : "苏尔特尔会很高兴!"
 boss_brutalis_speech7 : "你无法阻止恶魔的入侵!"
 boss_brutalis_speech8 : "我的军团在哪里?!"
 demonportalgateway_TW : "穆斯贝尔海姆"
+demonportal_lowerhall_TW : "屠杀大厅"
+demonportal_passagehall_TW : "征服之路"
+demonportal_brutalis_TW : "暴君的万神殿"
 altar_demonlord_TW : "燃烧的仇恨祭坛"
 altar_demonlord_description_TW : "挑战穆斯贝尔海姆的烈火愤怒……"
 demonportal_TW : "恶魔传送门"
@@ -159,6 +211,9 @@ brutalis_summon : "穆斯贝尔海姆的指挥官从烈焰中被惊动!"
 brutalis_defeat : "你打败了攻城领主布鲁塔利斯!"
 
 surtrbones_TW : "不稳定的骨头"
+
+runestone_demonportal_TW : "火焰阴影"
+runestone_demonportal_description_TW : "在穆斯贝尔海姆的炎域中居住着苏尔特尔，这个黑暗泰坦的命运与诸神黄昏交织在一起.尽管预言他将在众神的黄昏中崛起，带来阿斯加德的厄运，但苏尔特并没有等待命中注定的时刻。他从炽热的王座上召集了影子与火焰军团，派遣他们去焚烧九界，无情地追求炽热的征服."
 
 ##BOSS POWERS##
 sacrificialstone_brutalis_TW : "穆斯贝尔海姆的攻城领主，火巨人苏尔特尔有着无法抑制的征服欲望。他的恶魔先锋自创世之初就无时无刻不在入侵九大海姆."
@@ -196,6 +251,8 @@ altar_jotunnchief_description_TW: "向冰巨人酋长发起挑战，进行一场
 jotunngate_TW : "酋长大门"
 runestone_jotunndungeon_TW : "冰下之王"
 runestone_jotunndungeon_description_TW : "北方的约顿冰巨人部落是一个游牧部落，在凶猛的领袖屠龙者戈尔的领导下，他们踏上了征服之路，保卫古老的土地，抵御任何入侵者."
+gorr_summon : "你挑战了屠龙者戈尔!"
+gorr_defeat : "你打败了戈尔酋长!"
 
 ##SYTHRAK##
 trophy_sythrak_TW : "塞斯拉克战利品"
@@ -216,7 +273,7 @@ mappin_sythrak_TW : "塞斯拉克"
 
 ##LORESTONE##
 lorestonethor_TW : "传说石碑"
-lorestonethor_label_TW : "约顿祸根"
+lorestonethor_label_TW : "雷神索尔"
 lorestonethor_description_TW : "向雷霆、闪电和风暴的强大主致敬。向智慧的主致敬，您的话语是信仰的纽带。向力量之主致敬，当邪恶威胁大门时。主啊，请打击吧，愿雷声滚滚，请击出您的铁锤。米德加德的捍卫者，愿我们永远依靠您"
 
 ##RAVEN##

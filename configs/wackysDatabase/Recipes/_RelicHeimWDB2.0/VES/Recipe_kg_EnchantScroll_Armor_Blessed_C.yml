@@ -8,7 +8,7 @@ amount: 1
 disabled: false
 requireOnlyOneIngredient: false
 reqs:
-- Coins:300:0:True
+- RottenPelt_TW:5:0:True
 - Chitin:5:0:True
 - InfusedCrystal_JH:7:0:True
 - kg_EnchantScroll_Armor_C:1:0:True

@@ -25,26 +25,33 @@ EpicLoot Backpack:
     - RunestoneRare
     - RunestoneEpic
     - RunestoneLegendary
+    - RunestoneMythic
     - ShardMagic
     - ShardRare
     - ShardEpic
     - ShardLegendary
+    - ShardMythic
     - DustMagic
     - DustRare
     - DustEpic
     - DustLegendary
+    - DustMythic
     - ReagentMagic
     - ReagentRare
     - ReagentEpic
     - ReagentLegendary
+    - ReagentMythic
     - EssenceMagic
     - EssenceRare
     - EssenceEpic
     - EssenceLegendary
+    - EssenceMythic
     - ForestToken
     - IronBountyToken
     - GoldBountyToken
     - Coins
+    - FreyjaEssence_TW
+    - InfusedCrystal_JH
   weight factor: 1
   crafting:
     station: Forge
@@ -61,9 +68,8 @@ EpicLoot Backpack:
       Guck: 2
       size: 7x4
 Andvaranaut Backpack:
-  description: "This backpack has tucked the Andvaranaut Ring deep in its pouches, guiding you to Haldors Treasures when equipped"
+  description: "This backpack has tucked the Andvaranaut Ring deep in its pouches, guiding you to Haldors Treasures when equipped, Effect removed till its fixed."
   size: 5x2
-  effect: Andvaranaut
   unique: type
   appearance:
     Sleepbag: hidden
@@ -89,26 +95,33 @@ Andvaranaut Backpack:
     - RunestoneRare
     - RunestoneEpic
     - RunestoneLegendary
+    - RunestoneMythic
     - ShardMagic
     - ShardRare
     - ShardEpic
     - ShardLegendary
+    - ShardMythic
     - DustMagic
     - DustRare
     - DustEpic
     - DustLegendary
+    - DustMythic
     - ReagentMagic
     - ReagentRare
     - ReagentEpic
     - ReagentLegendary
+    - ReagentMythic
     - EssenceMagic
     - EssenceRare
     - EssenceEpic
     - EssenceLegendary
+    - EssenceMythic
     - ForestToken
     - IronBountyToken
     - GoldBountyToken
     - Coins
+    - FreyjaEssence_TW
+    - InfusedCrystal_JH
   weight factor: 1
   crafting:
     station: Forge

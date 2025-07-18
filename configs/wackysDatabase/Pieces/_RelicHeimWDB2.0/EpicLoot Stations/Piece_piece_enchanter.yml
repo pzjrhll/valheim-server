@@ -1,9 +1,8 @@
 name: piece_enchanter
 piecehammer: Hammer
-m_name: $mod_epicloot_assets_enchanter
+m_name: Red Shard Decoration
 sizeMultiplier: 1
-m_description: >
-  $mod_epicloot_assets_enchanter_introduce
+m_description: An old Enchanter now turned in to a decoration piece
 customIcon: 
 clonePrefabName: 
 material: 
@@ -14,10 +13,7 @@ minStationLevel: 1
 amount: 1
 disabled: false
 adminonly: false
-comfort:
-  comfort: 1
-  comfortGroup: none
-  comfortObject: 
+comfort: 
 groundPiece: false
 ground: false
 waterPiece: false
@@ -26,15 +22,24 @@ notOnFloor: false
 onlyinTeleportArea: false
 allowedInDungeons: false
 canBeRemoved: true
+notOnWood: false
 wearNTearData: 
 craftingStationData: 
 cSExtensionData: 
+cSExtensionDataList: 
 contData: 
 smelterData: 
 cookingStationData: 
 beehiveData: 
 fermStationData: 
 sapData: 
+incineratorData: 
+fireplaceData: 
+teleportWorldData: 
+plantData: 
+shipData: 
+shieldGenData: 
+batteringRamData: 
 build:
 - Stone:10:1:True
 - SurtlingCore:3:1:True

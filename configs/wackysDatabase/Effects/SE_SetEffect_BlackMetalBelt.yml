@@ -2,7 +2,7 @@ Name: SetEffect_BlackMetalBelt
 Status_m_name: BlackMetal Belt
 Category: ''
 IconName: 
-CustomIcon: BeltStrength.png
+CustomIcon: BeltYmir_TW1.png
 FlashIcon: false
 CooldownIcon: false
 Tooltip: $se_beltstrength_tooltip
@@ -47,8 +47,8 @@ SeData:
   m_damageModifier: 1
   m_noiseModifier: 0
   m_stealthModifier: 0
-  m_addMaxCarryWeight: 200
-  m_speedModifier: 0
+  m_addMaxCarryWeight: 250
+  m_speedModifier: 0.02
   m_maxMaxFallSpeed: 0
   m_fallDamageModifier: 0
   m_tickTimer: 

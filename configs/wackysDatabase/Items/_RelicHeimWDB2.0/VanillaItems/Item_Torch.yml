@@ -137,7 +137,7 @@ Armor:
   armorPerLevel: 1
 FoodStats: 
 Moddifiers:
-  m_movementModifier: -0.05
+  m_movementModifier: 0
   m_EitrRegen: 0
   m_homeItemsStaminaModifier: 0
   m_heatResistanceModifier: 0
@@ -170,7 +170,7 @@ m_knockback: 30
 m_useDurability: true
 m_useDurabilityDrain: 1
 m_durabilityDrain: 0.0333
-m_maxDurability: 50
+m_maxDurability: 100
 m_durabilityPerLevel: 50
 m_equipDuration: 0.2
 m_skillType: Clubs

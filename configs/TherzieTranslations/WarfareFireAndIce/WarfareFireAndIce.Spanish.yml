@@ -21,8 +21,8 @@ piece_borealpinelonglog45_TW : "Tronco de viga larga boreal de 45°"
 piece_borealpinelogbeam4_TW : "Tronco de viga boreal de 4 m"
 piece_borealpinelogbeam2_TW : "Tronco de viga boreal de 2 m"
 ##BANNER##
-piece_banner_muspelheim_TW : "Banner de Surtr"
-piece_banner_jotunnheim_TW : "Banner de Jotarr"
+piece_banner_muspelheim_TW : "Bandera de Surtr"
+piece_banner_jotunnheim_TW : "Bandera de Jotarr"
 ##RAVEN##
 ymirforge_topic_TW : "¡Has construido la Forja de Ymir!"
 ymirforge_text_TW : "En esta forja se pueden crear poderosas armas imbuidas de fuego, hielo y relámpagos."

@@ -12,9 +12,9 @@ piece_runesphere_description_TW : "Magiczna stacja rzemieślnicza"
 piece_dwarvensmelter_TW : "Krasnoludzka wytapialnia"
 piece_dwarvensmelter_description_TW : "Umożliwia wytapianie wszystkich metali w nieco szybszym tempie."
 ##BOREAL PINE COREWOOD LOGS##
-piece_borealpinelogbeam2_TW : "Borealna Belka"
+piece_borealpinelogbeam2_TW : "Borealna Belka 2m"
 piece_borealpinelogbeam4_TW : "Borealna Belka 4m"
-piece_borealpinelogpole2_TW : "Borealny Pal"
+piece_borealpinelogpole2_TW : "Borealny Pal 2m"
 piece_borealpinepole4_TW : "Borealny Pal 4m"
 piece_borealpinelog26_TW : "Borealna Belka 26°"
 piece_borealpinelonglog26_TW : "Borealna Belka 4m 26°"
@@ -37,9 +37,9 @@ arrow_explosivefire_description_TW : "Strzały z płonącego metalu, które eksp
 arrow_explosivefrost_TW : "Wybuchowe strzały mrozu"
 arrow_explosivefrost_description_TW : "Strzały Tyranium, które eksplodują po uderzeniu."
 arrow_njord_TW : "Strzały Njorda"
-arrow_njord_description_TW : "Strzały z tyranium zadające duże obrażenia przebijające".
+arrow_njord_description_TW : "Strzały z tyranium zadające duże obrażenia przebijające."
 arrow_surtr_TW : "Strzały Surtra"
-arrow_surtr_description_TW : "Strzały z ragnorite zadające wysokie obrażenia przebijające".
+arrow_surtr_description_TW : "Strzały z ragnorite zadające wysokie obrażenia przebijające."
 ##BOLTS##
 bolt_njord_TW : "Bełt Njord"
 bolt_njord_description_TW : "Wytrzymały pocisk tyranium."
@@ -79,9 +79,9 @@ battleaxe_surtr_description_TW: "Ognisty topór bojowy zaklęty okrucieństwem V
 battleaxe_dragon_TW : "Zabójca smoków"
 battleaxe_dragon_description_TW: "Brutalny topór bojowy wykonany z kości smoka, służy do unicestwiania wrogów lub drzew."
 battleaxecrystal_jotunnheim_TW : "Kryształowy topór bojowy z Jotunnheim"
-battleaxecrystal_jotunnheim_description_TW: "Wykuty z tyranium topór bojowy z Jotunnheim. Służy do rąbania drzew i zamrażania twoich wrogów".
-battleaxecrystal_muspelheim_TW: "Kryształowy topór bojowy Muspelheim".
-battleaxecrystal_muspelheim_description_TW: "Topór bojowy z Muspelheimu wykuty z ragnorytu. Używany do rąbania drzew i palenia twoich wrogów ".
+battleaxecrystal_jotunnheim_description_TW: "Wykuty z tyranium topór bojowy z Jotunnheim. Służy do rąbania drzew i zamrażania twoich wrogów."
+battleaxecrystal_muspelheim_TW: "Kryształowy topór bojowy Muspelheim"
+battleaxecrystal_muspelheim_description_TW: "Topór bojowy z Muspelheimu wykuty z ragnorytu. Używany do rąbania drzew i palenia twoich wrogów."
 ##BATTLEHAMMER##
 battlehammer_njord_TW : "Młot bojowy Njorda"
 battlehammer_njord_description_TW: "Runiczny młot bojowy zaklęty okrucieństwem Skrymira. Służy do miażdżenia i zamrażania wrogów."
@@ -143,7 +143,7 @@ fist_njord_description_TW: "Śmiercionośna runiczna broń do walki na pięści,
 fist_surtr_TW : "Kastety Surtra"
 fist_surtr_description_TW: "Ogniste kastety zaklęte okrucieństwem Vulkariona. Służą do powalania i podpalania wrogów."
 fist_fenrir_TW : "Szpony Fenrira"
-fist_fenrir_description_TW: "Ostre szpony zaklęte złośliwością Fenrira. Używane do polowania i szokowania wrogów".
+fist_fenrir_description_TW: "Ostre szpony zaklęte złośliwością Fenrira. Używane do polowania i szokowania wrogów."
 ##KNIVES##
 knife_njord_TW : "Nóż Njorda"
 knife_njord_description_TW: "Runiczny nóż zaklęty okrucieństwem Skrymira. Służy do kłucia i zamrażania wrogów."
@@ -204,8 +204,8 @@ staff_storm_description_TW : "Potężna różdżka piorunów do rażenia i paral
 staff_impdemon_TW : "Demoniczna Różdżka"
 staff_impdemon_description_TW : "Zaklęta czarnąmagiągłowa Impa, pozwalająca przyzywać demonicznych przyjaciół z Otchłani."
 staff_skrymir_TW : "Gniew Skrymira"
-staff_skrymir_description_TW : "Potężna lodowa różdżka, którą możesz zamrażać wrogów".
-staffimp_maxsummon : "Twój przywoływacz Pustki nie jest wystarczająco silny, aby kontrolować więcej przywołańców".
+staff_skrymir_description_TW : "Potężna lodowa różdżka, którą możesz zamrażać wrogów."
+staffimp_maxsummon : "Twój przywoływacz Pustki nie jest wystarczająco silny, aby kontrolować więcej przywołańców."
 summonedimp_TW : "Chochlik Pustki"
 tamed_impname_01 : "Ubelz"
 tamed_impname_02 : "Azari"
@@ -228,8 +228,8 @@ tamed_impname_18 : "Heliz"
 tamed_impname_19 : "Azaaq"
 tamed_impname_20 : "Vrock"
 staff_stormwolf_TW : "Wolfheart"
-staff_stormwolf_description_TW : "Magia Burzy natchnęła idola, by wyczarować Wilki Burzowe z burzy.."
-staffstormwolf_maxsummon : "Twoje Wilcze Serce nie jest wystarczająco silne, by kontrolować więcej przywołańców".
+staff_stormwolf_description_TW : "Magia Burzy natchnęła idola, by wyczarować Wilki Burzowe z burzy..."
+staffstormwolf_maxsummon : "Twoje Wilcze Serce nie jest wystarczająco silne, by kontrolować więcej przywołańców."
 summonstormwolf_TW : "Wyczarowany wilk burzowy"
 tamed_stormwolfname_01 : "Ravnir"
 tamed_stormwolfname_02 : "Valdyr"
@@ -241,7 +241,7 @@ se_ring_loki_start_TW : "Czujesz, jak potężna magia przepływa przez ciebie."
 necklace_tyr_TW : "Męstwo"
 necklace_tyr_description_TW : "Najbardziej ukochana własność nieustraszonego Týra."
 se_necklace_tyr_TW : "Strażnik"
-se_necklace_tyr_start_TW : "Czujesz się nieustraszony."
+se_necklace_tyr_start_TW : "Czujesz się nieustraszony"
 
 ##VEGETATION##
 metalsource_titansword_TW : "Pozostałość tytana"
@@ -260,9 +260,9 @@ deepnorth_wood_TW : "Borealne drewno"
 borealpinetree_cone_TW : "Szyszka borealnej sosny"
 borealpinetree_cone_description_TW : "Posadź go, aby wyhodować sosnę borealną."
 deepnorth_pinewood_TW : "Borealne twarde drewno"
-deepnorth_pinewood_description_TW : "Borealne drewno sosnowe z Głębokiej Północy, używane do wytwarzania i budowania".
+deepnorth_pinewood_description_TW : "Borealne drewno sosnowe z Głębokiej Północy, używane do wytwarzania i budowania."
 borealtree_cone_TW : "Szyszka drzewa borealnego"
-borealtree_cone_description_TW : "Zasadź, aby wyhodować drzewo borealne".
+borealtree_cone_description_TW : "Zasadź, aby wyhodować drzewo borealne."
 deepnorth_wood_description_TW : "Borealne drewno z Dalekiej Północy, używane do rzemiosła i budownictwa."
 
 ##SAPLINGS##
@@ -275,23 +275,23 @@ sapling_helweed_TW : "Sadzonka chwastu piekielnego"
 
 ##FOOD##
 consume_tundraberry_TW : "Jagoda tundry"
-consume_tundraberry_DESCRIPTION_TW : "Zamrożony owoc z północnej tundry."
+consume_tundraberry_description_TW : "Zamrożony owoc z północnej tundry."
 consume_wintercap_TW : "Lodokubek"
-consume_wintercap_DESCRIPTION_TW : "Zamrożony grzyb z brzegów północnej tundry."
+consume_wintercap_description_TW : "Zamrożony grzyb z brzegów północnej tundry."
 consume_primalleak_TW : "Pierwotny Por"
-consume_primalleak_DESCRIPTION_TW : "Zamrożone warzywo, w pełni przystosowane do surowego klimatu Dalekiej Północy."
+consume_primalleak_description_TW : "Zamrożone warzywo, w pełni przystosowane do surowego klimatu Dalekiej Północy."
 
 ##CAPES##
 cape_demon_TW : "Demoniczna peleryna"
-cape_demon_description_TW : "Podarta peleryna, która łapie wiatr w plecy".
+cape_demon_description_TW : "Podarta peleryna, która łapie wiatr w plecy."
 cape_north_TW : "Północna peleryna"
-cape_north_description_TW : "Noszona przez dawnych jarlów, północna peleryna jest ulubionym strojem wojowników".
+cape_north_description_TW : "Noszona przez dawnych jarlów, północna peleryna jest ulubionym strojem wojowników."
 cape_surtr_TW : "Peleryna Surtra"
-cape_surtr_description_TW : "Uszyta z vegvisiru peleryna nasycona magią Surtra".
+cape_surtr_description_TW : "Uszyta z vegvisiru peleryna nasycona magią Surtra."
 cape_ymir_TW : "Peleryna Ymira"
-cape_ymir_description_TW : "Uszyta z vegvisiru peleryna nasycona magią Ymira".
+cape_ymir_description_TW : "Uszyta z vegvisiru peleryna nasycona magią Ymira."
 cape_fenrir_TW : "Peleryna Fenrira"
-cape_fenrir_description_TW : "Uszyta z vegvisiru peleryna nasycona magią Fenrira".
+cape_fenrir_description_TW : "Uszyta z vegvisiru peleryna nasycona magią Fenrira."
 
 ##ARMORS##
 set_fenrir_thoradus_TW : "Fenrir"
@@ -299,166 +299,166 @@ thoradusfenrirset_description_TW : "Zwiększa obrażenia zadawane bronią jednor
 helmet_thoradusfenrir_TW : "Spojrzenie Fenrira"
 helmet_thoradusfenrir_description_TW : "Śmierdzi tu mokrym psem!"
 armorchest_thoradusfenrir_TW : "Serce Fenrira"
-armorchest_thoradusfenrir_description_TW : "Zaklęta skórzana skrzynia łowcy burz".
-armorlegs_thoradusfenrir_TW : "Kroki Fenrira".
-armorlegs_thoradusfenrir_description_TW : "Elektryzujący w dotyku".
+armorchest_thoradusfenrir_description_TW : "Zaklęta skórzana skrzynia łowcy burz."
+armorlegs_thoradusfenrir_TW : "Kroki Fenrira"
+armorlegs_thoradusfenrir_description_TW : "Elektryzujący w dotyku."
 
 set_legion_thoradus_TW : "Fafnir"
 helmet_thoraduslegion_TW : "Czaszka Fafnira"
 helmet_thoraduslegion_description_TW : "Możesz poczuć pulsujący grzmot!"
 armorchest_thoraduslegion_TW : "Dusza Fafnira"
-armorchest_thoraduslegion_description_TW : "Ciężka, kuta zbroja Thoradusa, która pochłania elektryczność statyczną".
+armorchest_thoraduslegion_description_TW : "Ciężka, kuta zbroja Thoradusa, która pochłania elektryczność statyczną."
 armorlegs_thoraduslegion_TW : "Ochraniacze na nogi Fafnira"
-armorlegs_thoraduslegion_description_TW : "Skórzane spodnie z bokami chronionymi przez utwardzone poszycie z Thoradusa".
+armorlegs_thoraduslegion_description_TW : "Skórzane spodnie z bokami chronionymi przez utwardzone poszycie z Thoradusa."
 
 set_hunter_tyranium_TW : "Ullr"
 helmet_tyraniumhunter_TW : "Kaptur Ullra"
-helmet_tyraniumhunter_description_TW : "Niedźwiedzi kaptur legendarnego łowcy".
+helmet_tyraniumhunter_description_TW : "Niedźwiedzi kaptur legendarnego łowcy."
 armorchest_tyraniumhunter_TW : "Serce Ullra"
-armorchest_tyraniumhunter_description_TW : "Skórowany z najlepszych skór, jakie Północ ma do zaoferowania".
-armorlegs_tyraniumhunter_TW : "Kroki Ullra".
+armorchest_tyraniumhunter_description_TW : "Skórowany z najlepszych skór, jakie Północ ma do zaoferowania."
+armorlegs_tyraniumhunter_TW : "Kroki Ullra"
 armorlegs_tyraniumhunter_description_TW : "Najwygodniejsze kapcie w twoim życiu!"
 
 set_vidar_tyranium_TW : "Vidar"
-vidartyranium_description_TW : "Zwiększa obrażenia zadawane mieczami o 7%".
+vidartyranium_description_TW : "Zwiększa obrażenia zadawane mieczami o 7%."
 helmet_tyraniumvidar_TW : "Dziedzictwo Vidara"
 helmet_tyraniumvidar_description_TW : "W przypadku Ragnaroku, załóż hełm!"
 armorchest_tyraniumvidar_TW : "Łańcuch Vidara"
-armorchest_tyraniumvidar_description_TW : "Tyranowe ogniwo łańcucha z wysokiej jakości z futrzanymi rękawicami".
+armorchest_tyraniumvidar_description_TW : "Tyranowe ogniwo łańcucha z wysokiej jakości z futrzanymi rękawicami."
 armorlegs_tyraniumvidar_TW : "Wełniane rękawice Vidara"
-armorlegs_tyraniumvidar_description_TW : "Ciepłe północne futrzane spodnie i buty chroniące przed trudnymi warunkami pogodowymi".
+armorlegs_tyraniumvidar_description_TW : "Ciepłe północne futrzane spodnie i buty chroniące przed trudnymi warunkami pogodowymi."
 
 set_rogue_tyranium_TW : "Skrymir"
-roguetyranium_description_TW : "Zwiększa obrażenia zadawane nożami o 7%".
+roguetyranium_description_TW : "Zwiększa obrażenia zadawane nożami o 7%."
 helmet_tyraniumrogue_TW : "Maska Skrymira"
-helmet_tyraniumrogue_description_TW : "Masz ochotę odejść i zostać nomadem".
+helmet_tyraniumrogue_description_TW : "Masz ochotę odejść i zostać nomadem."
 armorchest_tyraniumrogue_TW : "Napierśnik Skyrmira"
-armorchest_tyraniumrogue_description_TW : "Biały skórzany napierśnik z tyrańską zbroją na nadgarstki i ramiona".
-armorlegs_tyraniumrogue_TW : "Trampki Skyrmira".
+armorchest_tyraniumrogue_description_TW : "Biały skórzany napierśnik z tyrańską zbroją na nadgarstki i ramiona."
+armorlegs_tyraniumrogue_TW : "Trampki Skyrmira"
 armorlegs_tyraniumrogue_description_TW : "Dobrze komponują się ze śniegiem!"
 
 set_warrior_ragnorite_TW : "Grimnir"
 warrior_ragnorite : "Dziedzictwo Grimnira"
-ragnoritewarriorset_description_TW : "Zwiększa obrażenia zadawane maczugami o 7%".
+ragnoritewarriorset_description_TW : "Zwiększa obrażenia zadawane maczugami o 7%."
 helmet_ragnoritewarrior_TW : "Korona Grimnira"
-helmet_ragnoritewarrior_description_TW : "Ciężki, poczerniały hełm z płonącymi rogami".
+helmet_ragnoritewarrior_description_TW : "Ciężki, poczerniały hełm z płonącymi rogami."
 armorchest_ragnoritewarrior_TW : "Uścisk Grimnira"
-armorchest_ragnoritewarrior_description_TW : "Ciężka, kuta, poczerniała zbroja czaszkowa zaklęta magią runiczną".
+armorchest_ragnoritewarrior_description_TW : "Ciężka, kuta, poczerniała zbroja czaszkowa zaklęta magią runiczną."
 armorlegs_ragnoritewarrior_TW : "Ochraniacze na nogi Grimnira"
 armorlegs_ragnoritewarrior_description_TW : "Sczerniałe skórzane spodnie z niebezpieczną ochroną kolan!"
 
 set_raider_ragnorite_TW : "Vulkarion"
-raiderragnorite_description_TW : "Zwiększa obrażenia zadawane toporami o 7%".
+raiderragnorite_description_TW : "Zwiększa obrażenia zadawane toporami o 7%."
 helmet_ragnoriteraider_TW : "Nienawiść Vulkariona"
 helmet_ragnoriteraider_description_TW : "Hełm jest wyposażony w filtr lawy!"
 armorchest_ragnoriteraider_TW : "Serce Vulkariona"
-armorchest_ragnoriteraider_description_TW : "Ciężka, kuta zbroja ragnorytowa zaklęta magią runiczną".
+armorchest_ragnoriteraider_description_TW : "Ciężka, kuta zbroja ragnorytowa zaklęta magią runiczną."
 armorlegs_ragnoriteraider_TW : "Ochraniacze Vulkariona"
-armorlegs_ragnoriteraider_description_TW : "Para ciemnych skórzanych spodni i butów zaklętych magią runiczną".
+armorlegs_ragnoriteraider_description_TW : "Para ciemnych skórzanych spodni i butów zaklętych magią runiczną."
 
 set_spellslinger_surtr_TW : "Surtr"
 helmet_spellslinger_surtr_TW : "Wizerunek Surtra"
 helmet_spellslinger_surtr_description_TW : "Słyszysz demoniczne głosy..."
 armorchest_spellslinger_surtr_TW : "Dusza Surtra"
-armorchest_spellslinger_surtr_description_TW : "Strój roztacza wokół siebie aurę zła".
-armorlegs_spellslinger_surtr_TW : "Pnącza Surtra".
-armorlegs_spellslinger_surtr_description_TW : "Idealne spodnie na Surtr i chłodny wieczór".
+armorchest_spellslinger_surtr_description_TW : "Strój roztacza wokół siebie aurę zła."
+armorlegs_spellslinger_surtr_TW : "Pnącza Surtra"
+armorlegs_spellslinger_surtr_description_TW : "Idealne spodnie na Surtr i chłodny wieczór."
 
 ##MATERIALS##
 mat_arcticbearpelt_TW : "Futro niedźwiedzia ursa"
-mat_arcticbearpelt_description_TW : "Grube, blade futro niedźwiedzia ursa".
+mat_arcticbearpelt_description_TW : "Grube, blade futro niedźwiedzia ursa."
 mat_arcticmammothpelt_TW : "Futro mamuta"
-mat_arcticmammothpelt_description_TW : "Grube, ciepłe futro, chroniące tyłek przed zamarznięciem".
+mat_arcticmammothpelt_description_TW : "Grube, ciepłe futro, chroniące tyłek przed zamarznięciem."
 mat_arcticmammothtusk_TW : "Złamany kieł mamuta"
-mat_arcticmammothtusk_description_TW : "Złamany kieł mamuta północnego".
+mat_arcticmammothtusk_description_TW : "Złamany kieł mamuta północnego."
 mat_arcticserpentscale_TW : "Łuska lodowego prześladowcy"
-mat_arcticserpentscale_description_TW : "Mocna, ciężka łuska jednego z lodowych węży z północy".
+mat_arcticserpentscale_description_TW : "Mocna, ciężka łuska jednego z lodowych węży z północy."
 mat_arcticwolfpelt_TW : "Futro wilka polarnego"
-mat_arcticwolfpelt_description_TW : "Śnieżnobiałe wilcze futro jednego z wilków wędrujących po Głębokiej Północy".
+mat_arcticwolfpelt_description_TW : "Śnieżnobiałe wilcze futro jednego z wilków wędrujących po Głębokiej Północy."
 mat_glacierstone_TW : "Kamień lodowcowy"
 mat_glacierstone_description_TW : "Zimny w dotyku kamień."
 mat_helweed_TW : "Piekielny chwast"
-mat_helweed_description_TW : "Inwazyjny chwast o czerwonym zabarwieniu z królestwa Muspelheimu".
+mat_helweed_description_TW : "Inwazyjny chwast o czerwonym zabarwieniu z królestwa Muspelheimu."
 mat_ragnoritebar_TW : "Ragnoryt"
 mat_ragnoritebar_description_TW : "Ciężka sztaba zaklętego metalu Ragnorite, używana do różnych unikalnych rzemiosł."
 mat_ragnoriteore_TW : "Czysta ruda ragnorytu"
-mat_ragnoriteore_description_TW : "Kiedy Ymir został złożony w ofierze, góry ogarnął ogień. Wszechojciec złagodził gniew wulkanu, ochładzając go w zaczarowany metal Ragnorite".
+mat_ragnoriteore_description_TW : "Kiedy Ymir został złożony w ofierze, góry ogarnął ogień. Wszechojciec złagodził gniew wulkanu, ochładzając go w zaczarowany metal Ragnorite."
 mat_tyraniumbar_TW : "Tyranium"
 mat_tyraniumbar_description_TW : "Ciężka sztaba zaklętego metalu tyranium, używana do różnych unikalnych rzemiosł."
 mat_tyraniumore_TW : "Czysta ruda tyranium"
-mat_tyraniumore_description_TW : "Kiedy wilk odgryzł Tyrowi rękę, krew zestaliła się w zaklęty metal Tyranium w miejscu, w którym dotknęła świata".
+mat_tyraniumore_description_TW : "Kiedy wilk odgryzł Tyrowi rękę, krew zestaliła się w zaklęty metal Tyranium w miejscu, w którym dotknęła świata."
 mat_lokvyrbar_TW : "Lokvyr"
-mat_lokvyrbar_description_TW : "Ciężki pręt z metalu Lokvyr, używany do różnych rzemiosł".
+mat_lokvyrbar_description_TW : "Ciężki pręt z metalu Lokvyr, używany do różnych rzemiosł."
 mat_lokvyrore_TW : "Ruda Lokvyru"
-mat_lokvyrore_description_TW : "Próbując oszukać krasnoludzkich kowali, Chytry wyczarował nową formę magicznego metalu o nazwie Lokvyr".
+mat_lokvyrore_description_TW : "Próbując oszukać krasnoludzkich kowali, Chytry wyczarował nową formę magicznego metalu o nazwie Lokvyr."
 mat_collarragnorite_TW : "Ragnorytowa obroża z kolcami"
-mat_collarragnorite_description_TW : "Ostra kolczuga z Ragnorytu, może uda ci się odzyskać metal z kuźni Ymir".
+mat_collarragnorite_description_TW : "Ostra kolczuga z Ragnorytu, może uda ci się odzyskać metal z kuźni Ymir."
 mat_collartyranium_TW : "Obroża z kolcami z tyranium"
-mat_collartyranium_description_TW : "Ostra tyraniowa obroża z kolcami, może uda ci się odzyskać metal w kuźni Ymir".
+mat_collartyranium_description_TW : "Ostra tyraniowa obroża z kolcami, może uda ci się odzyskać metal w kuźni Ymir."
 mat_tyraniumchain_TW : "Łańcuch tyranium"
-mat_tyraniumchain_description_TW: "Ciężki łańcuch odlany z czystego tyranium, może uda ci się odzyskać metal w kuźni Ymir".
+mat_tyraniumchain_description_TW: "Ciężki łańcuch odlany z czystego tyranium, może uda ci się odzyskać metal w kuźni Ymir."
 mat_thoradusbar_TW: "Thoradus"
-mat_thoradusbar_description_TW : "Ciężki pręt z metalu Thoradus, używany do różnych rzemiosł".
+mat_thoradusbar_description_TW : "Ciężki pręt z metalu Thoradus, używany do różnych rzemiosł."
 mat_jotunnheimcrystal_TW : "Kryształ z Jotunnheim"
-mat_jotunnheimcrystal_description_TW : "Magiczny kryształ pulsujący esencją królestwa Jotunnheim".
+mat_jotunnheimcrystal_description_TW : "Magiczny kryształ pulsujący esencją królestwa Jotunnheim."
 mat_muspelheimcrystal_TW : "Kryształ Muspelheimu"
-mat_muspelheimcrystal_description_TW : "Magiczny kryształ pulsujący esencją królestwa Muspelheim".
+mat_muspelheimcrystal_description_TW : "Magiczny kryształ pulsujący esencją królestwa Muspelheim."
 mat_burningfang_TW : "Płonący Kieł"
-mat_burningfang_description_TW : "Ostry, ognisty kieł Daggerfanga".
+mat_burningfang_description_TW : "Ostry, ognisty kieł Daggerfanga."
 mat_helcloth_TW : "Skóra o splocie Hel"
 mat_helcloth_description_TW : "Zużyty kawałek skóry z helskiego splotu, może być użyty do rzemiosła."
 mat_surtridol_TW : "Bożek Surtra"
-mat_surtridol_description_TW : "Magiczny bożek oddający cześć tytanowi Surtrowi".
+mat_surtridol_description_TW : "Magiczny bożek oddający cześć tytanowi Surtrowi."
 mat_ymiridol_TW : "Bożek Ymir"
-mat_ymiridol_description_TW : "Magiczny bożek kultu tytana Ymira".
+mat_ymiridol_description_TW : "Magiczny bożek kultu tytana Ymira."
 mat_demonicpelt_TW : "Wytrzymałe futro demona"
-mat_demonicpelt_description_TW : "Szkodliwe skóry z czarnego welonu".
+mat_demonicpelt_description_TW : "Szkodliwe skóry z czarnego welonu."
 mat_daggerfangscalehide_TW : "Skóra łuskowa ze sztyletem"
-mat_daggerfangscalehide_description_TW : "Twardy, ale elastyczny materiał preferowany przez zbrojmistrzów".
+mat_daggerfangscalehide_description_TW : "Twardy, ale elastyczny materiał preferowany przez zbrojmistrzów."
 mat_blackice_TW : "Czarny lód"
-mat_blackice_description_TW : "Utwardzone kryształy rezonują z esencją starożytnej magii".
+mat_blackice_description_TW : "Utwardzone kryształy rezonują z esencją starożytnej magii."
 mat_demonicsoulstone_TW : "Demoniczny kamień duszy"
 mat_demonicsoulstone_description_TW : "Możesz usłyszeć, jak kamień duszy pulsuje demonicznymi szeptami..."
 mat_jotunntooth_TW : "Ząb Jotunna"
-mat_jotunntooth_description_TW : "Gigantyczny ząb Jotunna".
+mat_jotunntooth_description_TW : "Gigantyczny ząb Jotunna."
 mat_jotunneye_TW : "Oko Jotunna"
 mat_jotunneye_description_TW : "Gigantyczna gałka oczna Jotunna, czy właśnie się na ciebie gapiła?"
 mat_demonichorn_TW : "Róg demona"
-mat_demonichorn_description_TW : "Nikczemny róg jednego z demonów hordy Surtra".
+mat_demonichorn_description_TW : "Nikczemny róg jednego z demonów hordy Surtra."
 mat_drakescale_TW : "Skala Drake'a"
-mat_drakescale_description_TW : "Wytrzymała Skala Drake'a Ognia, preferowana do wytwarzania przez zbrojmistrzów na całym świecie".
-mat_fenrirartifact_TW : "Artefakt Fenrira".
-mat_fenrirartifact_description_TW : "Cenny artefakt starożytnej magii, może być używany do rzemiosła".
+mat_drakescale_description_TW : "Wytrzymała Skala Drake'a Ognia, preferowana do wytwarzania przez zbrojmistrzów na całym świecie."
+mat_fenrirartifact_TW : "Artefakt Fenrira."
+mat_fenrirartifact_description_TW : "Cenny artefakt starożytnej magii, może być używany do rzemiosła."
 mat_furbundle_north_TW : "Północny zestaw futer"
-mat_furbundle_north_description_TW : "Wiązka grubych, wysokiej jakości futer, może być używana do tworzenia potężnych broni i zbroi".
+mat_furbundle_north_description_TW : "Wiązka grubych, wysokiej jakości futer, może być używana do tworzenia potężnych broni i zbroi."
 mat_helhidebundle_TW : "Zestaw skór helskich"
 mat_helhidebundle_description_TW : "Zestaw grubych, wysokiej jakości skór, które można wykorzystać do tworzenia potężnych broni i zbroi."
 rune_rage_TW : "Magiczna runa: Wściekłość"
-rune_rage_description_TW : "Runiczny ekstrakt magiczny, który nasyca twoje rzemiosło nieustępliwą furią Zimy".
+rune_rage_description_TW : "Runiczny ekstrakt magiczny, który nasyca twoje rzemiosło nieustępliwą furią Zimy."
 rune_destruction_TW : "Magiczna runa: Zniszczenie"
-rune_destruction_description_TW : "Ekstrakt magii runicznej, który nasyca twoje rzemiosło żądzą zniszczenia Tytana".
+rune_destruction_description_TW : "Ekstrakt magii runicznej, który nasyca twoje rzemiosło żądzą zniszczenia Tytana."
 rune_wrath_TW : "Magiczna runa: Gniew"
-rune_wrath_description_TW : "Runiczny ekstrakt magiczny, który nasyca twoje rzemiosło nieugiętym gniewem Burzy".
+rune_wrath_description_TW : "Runiczny ekstrakt magiczny, który nasyca twoje rzemiosło nieugiętym gniewem Burzy."
 item_coal_muspelheim_TW : "Zaczarowany płonący węgiel"
-item_coal_muspelheim_description_TW : "Zaczarowany węgiel, który zużywa mniej energii i spala się w wyższych temperaturach, może być używany tylko w kuźni Ymira".
+item_coal_muspelheim_description_TW : "Zaczarowany węgiel, który zużywa mniej energii i spala się w wyższych temperaturach, może być używany tylko w kuźni Ymira."
 
 ##KEYS##
 key_stormtemple_TW : "Klucz burzy"
 key_stormtemple_description_TW : "Ten klucz otworzy bramę do Świątyni Burzy"
 key_demonportal_TW : "Kamień portalu Muspelheim"
-key_demonportal_description_TW : "Ten magiczny kamień portalowy otworzy portal w królestwie Muspelheim".
+key_demonportal_description_TW : "Ten magiczny kamień portalowy otworzy portal w królestwie Muspelheim."
 key_sythrak_TW : "Idol Niszczyciela"
-key_sythrak_description_TW : "Ten bożek otworzy legowisko starożytnego smoka Sythraka".
+key_sythrak_description_TW : "Ten bożek otworzy legowisko starożytnego smoka Sythraka."
 key_jotunndungeon_fragment_TW : "Fragment bożka Tyranium"
-key_jotunndungeon_fragment_description_TW : "Przekuj 10 fragmentów, aby stworzyć relikt Jotarra, który może otworzyć bramę Jotarra".
+key_jotunndungeon_fragment_description_TW : "Przekuj 10 fragmentów, aby stworzyć relikt Jotarra, który może otworzyć bramę Jotarra."
 key_jotunndungeon_TW : "Relikt Jotarra"
-key_jotunndungeon_description_TW : "Ten relikt otworzy bramy komnat wodza Jotarra".
+key_jotunndungeon_description_TW : "Ten relikt otworzy bramy komnat wodza Jotarra."
 key_demonportal_fragment_TW : "Fragment portalu Muspelheim"
-key_demonportal_fragment_description_TW : "Wykuj 10 fragmentów, aby stworzyć klucz do portalu do królestwa Muspelheim".
+key_demonportal_fragment_description_TW : "Wykuj 10 fragmentów, aby stworzyć klucz do portalu do królestwa Muspelheim."
 
 ##SE'S##
 SE_PierceBurst_TW : "Plaster i kostka"
-SE_PierceBurst_description_TW : "Tnie wrogów serią obrażeń przebijających przy 6. trafieniu".
+SE_PierceBurst_description_TW : "Tnie wrogów serią obrażeń przebijających przy 6. trafieniu."
 SE_LightningBurst_TW : "Naładowany"
-SE_LightningBurst_description_TW : "Napędzany walką, uwalnia błyskawicę przy 5. trafieniu".
+SE_LightningBurst_description_TW : "Napędzany walką, uwalnia błyskawicę przy 5. trafieniu."
 se_monstrum_jotunnbooger_TW : "Śliski"

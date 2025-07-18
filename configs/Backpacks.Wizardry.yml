@@ -31,7 +31,7 @@ Novice Backpack:
     - BerryCandyBlackForest_TW
   weight factor: 0.9
   crafting:
-    station: WeavingLoom_TW
+    station: WizardTable_TW
     level: 1
     costs:
       FabricBundle_Blackforest_TW: 2
@@ -74,7 +74,7 @@ Scholar Backpack:
     - JellyCakeSwamp_TW
   weight factor: 0.9
   crafting:
-    station: WeavingLoom_TW
+    station: WizardTable_TW
     level: 1
     costs:
       FabricBundle_Swamp_TW: 2
@@ -117,7 +117,7 @@ Magus Backpack:
     - IceHornMountain_TW
   weight factor: 0.9
   crafting:
-    station: WeavingLoom_TW
+    station: WizardTable_TW
     level: 1
     costs:
       FabricBundle_Mountain_TW: 2
@@ -160,7 +160,7 @@ Wizard Backpack:
     - BerryCakePlains_TW
   weight factor: 0.9
   crafting:
-    station: WeavingLoom_TW
+    station: WizardTable_TW
     level: 1
     costs:
       FabricBundle_Plains_TW: 2
@@ -203,7 +203,7 @@ Electromancer Backpack:
     - SeekerAspic
   weight factor: 0.9
   crafting:
-    station: WeavingLoom_TW
+    station: WizardTable_TW
     level: 1
     costs:
       FabricBundle_Mistlands_TW: 2

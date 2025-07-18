@@ -147,10 +147,14 @@ surtrwarbringer_TW : "Warbringer"
 ##DAY+NIGHT CREATURES##
 stormfenring_TW : "Stormbringer"
 stormfenringcultist_TW : "Storm Acolyte"
+frostfenring_TW : "Frost Disciple"
+firefenring_TW : "Flame Disciple"
+arcticbat_TW : "Ice Bat"
 ##LOCATIONS##
 jotunnlairgateway_TW : "Jotunn Lair"
 frozenchest_TW : "Frozen Chest"
 frozenmammothbones_TW : "Frozen Mammoth Bones"
+scorchedbearbones_TW : "Scorched Bear Bones"
 mappin_stonesDeepNorth_TW : "Place of Power"
 mappin_jotunndungeon_TW : "Jotarr Stronghold"
 jotunndungeongateway_entrance_TW : "Ice Hall"
@@ -159,8 +163,9 @@ jotunndungeongateway_bossroom_TW : "Jotarr Throne"
 lorestoneodin_TW : "Lorestone"
 lorestoneodin_label_TW : "The Wise One"
 lorestoneodin_description_TW : "The one-eyed Father, the great King of gods, protector of warriors, who died regardless of cause. My muse and my mentor, the old man that observes, I hope to one day reach your halls, to feast and fight until time no longer preserves. With Hugin and Munin by his side, mounted atop Sleipnir his trusted steed, he rules Valhalla strong, the hall of fighters and mead."
-
-
+stormtemple_hall : "Frozen hall"
+stormtemple_stair : "Heart of the Storm"
+stormtemple_altar : "Storm Temple"
 ##STORM HERALD##
 stormtemple_discover_TW : "Storm Temple"
 stormheraldgateway_TW : "Temple Terrace"
