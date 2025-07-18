@@ -1,0 +1,301 @@
+- biome: Meadows
+  environments:
+  - environment: Clear
+  - environment: Heath clear
+    weight: 0.8
+  - environment: LightRain
+    weight: 0.2
+  - environment: Rain
+    weight: 0.15
+  - environment: ThunderStorm
+    weight: 0.1
+  - environment: Misty
+    weight: 0.11
+  - environment: Bonemass
+    weight: 0.05
+  - environment: DeepForest Mist
+    weight: 0.05
+  - environment: Twilight_Snow
+    weight: 0.01
+  mapColor:
+    r: 0.5725338
+    g: 0.6551003
+    b: 0.3605249
+    a: 1
+  musicDay: meadows
+- biome: Swamp
+  environments:
+  - environment: Clear
+    weight: 0.7
+  - environment: LightRain
+    weight: 0.9
+  - environment: Rain
+    weight: 0.6
+  - environment: ThunderStorm
+    weight: 0.2
+  - environment: Bonemass
+    weight: 0.5
+  - environment: Misty
+    weight: 0.6
+  - environment: DeepForest Mist
+    weight: 0.4
+  - environment: SunkenCrypt
+    weight: 0.3
+  - environment: Crypt
+    weight: 0.3
+  - environment: Fader
+    weight: 0.1
+  - environment: Queen
+    weight: 0.1
+  - environment: Darklands_dark
+    weight: 0.4
+  color:
+    r: 1
+  mapColor:
+    r: 0.6394598
+    g: 0.4469825
+    b: 0.3448844
+    a: 1
+  musicDay: swamp
+  musicNight: swamp
+- biome: Mountain
+  environments:
+  - environment: Mistlands_clear
+    weight: 0.05
+  - environment: CavesHildir
+    weight: 0.2
+  - environment: Caves
+    weight: 0.2
+  - environment: Snow
+    weight: 1
+  - environment: SnowStorm
+    weight: 0.8
+  - environment: Twilight_SnowStorm
+    weight: 0.5
+  color:
+    g: 1
+  mapColor:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  musicDay: mountain
+  musicNight: mountain
+- biome: BlackForest
+  environments:
+  - environment: Clear
+    weight: 0.9
+  - environment: LightRain
+    weight: 0.3
+  - environment: Rain
+    weight: 0.15
+  - environment: ThunderStorm
+    weight: 0.1
+  - environment: Misty
+    weight: 0.2
+  - environment: Twilight_Snow
+    weight: 0.01
+  - environment: Bonemass
+    weight: 0.05
+  - environment: Queen
+    weight: 0.05
+  - environment: DeepForest Mist
+    weight: 0.2
+  - environment: Crypt
+    weight: 0.05
+  - environment: Darklands_dark
+    weight: 0.1
+  - environment: SunkenCrypt
+    weight: 0.05
+  color:
+    b: 1
+  mapColor:
+    r: 0.4196384
+    g: 0.4548104
+    b: 0.2466926
+    a: 1
+  musicDay: blackforest
+  musicNight: blackforest
+- biome: Plains
+  environments:
+  - environment: Heath clear
+    weight: 1
+  - environment: Clear
+    weight: 0.9
+  - environment: DeepForest Mist
+    weight: 0.1
+  - environment: ThunderStorm
+    weight: 0.05
+  - environment: LightRain
+    weight: 0.2
+  - environment: Darklands_dark
+    weight: 0.1
+  - environment: Misty
+    weight: 0.2
+  - environment: Rain
+    weight: 0.1
+  - environment: Queen
+    weight: 0.05
+  - environment: Twilight_Snow
+    weight: 0.05
+  color:
+    a: 1
+  mapColor:
+    r: 0.9062028
+    g: 0.6707256
+    b: 0.4704356
+    a: 1
+  musicDay: plains
+  musicNight: plains
+- biome: AshLands
+  environments:
+  - environment: Ashlands_ashrain
+    weight: 1.5
+  - environment: Ashlands_misty
+    weight: 0.1
+  - environment: Ashlands_CinderRain
+    weight: 0.2
+  - environment: Ashlands_storm
+    weight: 0.05
+  - environment: Darklands_dark
+    weight: 0.05
+  - environment: Crypt
+    weight: 0.05
+  - environment: Queen
+    weight: 0.05
+  color:
+    r: 1
+    a: 1
+  mapColorMultiplier: 0.5
+  mapColor:
+    r: 0.4811321
+    g: 0.124822
+    b: 0.124822
+    a: 1
+  musicDay: ashlands
+  musicNight: ashlands
+  lava: true
+- biome: DeepNorth
+  environments:
+  # - environment: Darklands_dark_North
+  #   weight: 0.2
+  # - environment: CryptNorth
+  #   weight: 0.2
+  # - environment: DeepForest Mist North
+  #   weight: 0.3
+  - environment: Moder
+    weight: 0.3
+  - environment: Snow
+    weight: 1
+  - environment: CavesHildir
+    weight: 0.2
+  - environment: Caves
+    weight: 0.2
+  # - environment: Twilight_Snow
+  #   weight: 0.7
+  # - environment: SunkenCryptNorth
+  #   weight: 0.2
+  - environment: SnowStorm
+    weight: 0.8
+  - environment: Twilight_SnowStorm
+    weight: 0.6
+  color:
+    g: 1
+  mapColor:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+- biome: Ocean
+  environments:
+  - environment: Clear
+    weight: 0.8
+  - environment: DeepForest Mist
+    weight: 0.05
+  - environment: ThunderStorm
+    weight: 0.15
+  - environment: LightRain
+    weight: 0.3
+  - environment: Darklands_dark
+    weight: 0.1
+  - environment: Misty
+    weight: 0.1
+  - environment: Rain
+    weight: 0.2
+  - environment: Moder
+    weight: 0.05
+    deepNorthOverride : true  
+  - environment: Twilight_SnowStorm
+    weight: 0.1
+    deepNorthOverride : true
+  - environment: Twilight_Snow
+    weight: 0.2
+  - environment: Snow
+    weight: 0.2
+    deepNorthOverride : true
+  - environment: SnowStorm
+    weight: 0.1
+    deepNorthOverride : true
+  - environment: Bonemass
+    weight: 0.1
+  - environment: SunkenCrypt
+    weight: 0.1
+  - environment: Crypt
+    weight: 0.1
+  - environment: Ashlands_SeaStorm
+    weight: 0.1
+    ashlandsOverride: true
+  - environment: Queen
+    weight: 0.1
+    ashlandsOverride: true
+  - environment: Mistlands_rain
+    weight: 0.2
+  - environment: Mistlands_thunder
+    weight: 0.1
+  mapColor:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+- biome: Mistlands
+  environments:
+  - environment: Mistlands_clear
+    weight: 1.5
+  - environment: Mistlands_rain
+    weight: 0.4
+  - environment: Mistlands_thunder
+    weight: 0.3
+  - environment: Bonemass
+    weight: 0.1
+  - environment: Queen
+    weight: 0.1
+  - environment: SunkenCrypt
+    weight: 0.1
+  - environment: Crypt
+    weight: 0.2
+  - environment: Twilight_Snow
+    weight: 0.2
+  - environment: Twilight_SnowStorm
+    weight: 0.05 
+  - environment: DeepForest Mist
+    weight: 0.2
+  - environment: ThunderStorm
+    weight: 0.2
+  - environment: LightRain
+    weight: 0.3
+  - environment: Darklands_dark
+    weight: 0.15
+  - environment: Misty
+    weight: 0.3
+  - environment: Rain
+    weight: 0.2
+  color:
+    b: 1
+    a: 1
+  mapColor:
+    r: 0.2
+    g: 0.2
+    b: 0.2
+    a: 1
+  musicDay: mistlands
+  musicNight: mistlands
