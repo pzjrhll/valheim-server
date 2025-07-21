@@ -169,6 +169,7 @@
   - SpearElderbark
   - SwordIron
   - KnifeChitin
+  - rae_Horseaker
 - enchant_prefab:
     prefab: kg_EnchantScroll_Armor_C
     amount: 1
@@ -182,6 +183,9 @@
   - HelmetRoot
   - ArmorRootChest
   - ArmorRootLegs
+  - ArmorHorseClothHelmet_T2
+  - ArmorHorseClothChest_T2
+  - ArmorHorseClothLegs_T2
 - enchant_prefab:
     prefab: kg_EnchantScroll_Weapon_D
     amount: 1
@@ -213,6 +217,8 @@
   - ArmorTrollLeatherChest
   - ArmorTrollLeatherLegs
   - CapeTrollHide
+  - rae_OdinHorse_Helmet
+  - rae_CapeHorseHide
 - enchant_prefab:
     prefab: kg_EnchantScroll_Weapon_F
     amount: 1
@@ -242,3 +248,6 @@
   - ArmorLeatherChest
   - ArmorLeatherLegs
   - CapeDeerHide
+  - ArmorHorseClothHelmet_T1
+  - ArmorHorseClothChest_T1
+  - ArmorHorseClothLegs_T1
