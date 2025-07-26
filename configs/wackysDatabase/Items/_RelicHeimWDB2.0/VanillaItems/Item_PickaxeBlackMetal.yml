@@ -158,8 +158,8 @@ m_equipDuration: 0.2
 m_skillType: Pickaxes
 m_animationState: TwoHandedClub
 m_itemType: TwoHandedWeapon
-m_toolTier: 4
-m_maxQuality: 4
+m_toolTier: 5
+m_maxQuality: 5
 m_value: 0
 damageModifiers: []
 GEffects:
