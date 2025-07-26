@@ -29,10 +29,10 @@
   "Path": "$.UpgradeValues",
   "Action": "Overwrite",
   "Value": {
-    "Sacrifice": 		[ [0], [4], [8], [12], [16], [20], [25], [30] ],
+    "Sacrifice": 		[ [0], [5], [10], [15], [20], [25], [30], [40] ],
     "ConvertMaterials": [ [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0] ],
-    "Enchant": 			[ [0, 0], [2, 4], [3, 6], [4, 8], [5, 10], [6, 12], [8, 16], [10, 18] ],
-    "Augment": 			[ [2, 0], [2, 0], [2, 50], [3, 0], [3, 50], [4, 0], [4, 50] ],
+    "Enchant": 			[ [0, 0], [3, 6], [5, 8], [7, 10], [9, 12], [12, 15], [15, 18], [20, 25] ],
+    "Augment": 			[ [2, 0], [2, 50], [3, 0], [3, 50], [4, 0], [4, 50], [5, 50] ],
     "Disenchant": 		[ [1, 0], [5, 0], [10, 0], [10, 1], [25, 1], [25, 2], [40, 2] ]
 	}
 	},
@@ -61,22 +61,22 @@
     ],
     "Enchant": [
       null,
-      [ { "Item": "DustMagic", "Amount": 10 },			{ "Item": "ForestToken", "Amount": 10 },	 	{ "Item": "Bronze", "Amount": 20 } ],
-      [ { "Item": "DustRare", "Amount": 5 },			{ "Item": "IronBountyToken", "Amount": 10 }, 	{ "Item": "Iron", "Amount": 20 } ],
-      [ { "Item": "DustRare", "Amount": 10 },			{ "Item": "IronBountyToken", "Amount": 20 }, 	{ "Item": "Silver", "Amount": 20 } ],
-      [ { "Item": "DustEpic", "Amount": 10 }, 			{ "Item": "GoldBountyToken", "Amount": 10 }, 	{ "Item": "BlackMetal", "Amount": 20 } ],
-      [ { "Item": "DustLegendary", "Amount": 10 }, 		{ "Item": "GoldBountyToken", "Amount": 20 }, 	{ "Item": "Eitr", "Amount": 20 } ],
-      [ { "Item": "DustMythic", "Amount": 10 }, 		{ "Item": "GoldBountyToken", "Amount": 30 }, 	{ "Item": "FlametalNew", "Amount": 20 } ],
-      [ { "Item": "DustMythic", "Amount": 20 }, 		{ "Item": "GoldBountyToken", "Amount": 40 }, 	{ "Item": "ThoradusBar_TW", "Amount": 20 } ]
+      [ { "Item": "DustMagic", "Amount": 40 },			{ "Item": "IronBountyToken", "Amount": 20 },	 	{ "Item": "Bronze", "Amount": 40 } ],
+      [ { "Item": "DustRare", "Amount": 20 },			{ "Item": "IronBountyToken", "Amount": 30 }, 	{ "Item": "Iron", "Amount": 40 } ],
+      [ { "Item": "DustRare", "Amount": 30 },			{ "Item": "IronBountyToken", "Amount": 40 }, 	{ "Item": "Silver", "Amount": 40 } ],
+      [ { "Item": "DustEpic", "Amount": 30 }, 			{ "Item": "GoldBountyToken", "Amount": 20 }, 	{ "Item": "BlackMetal", "Amount": 40 } ],
+      [ { "Item": "DustLegendary", "Amount": 30 }, 		{ "Item": "GoldBountyToken", "Amount": 30 }, 	{ "Item": "Eitr", "Amount": 40 } ],
+      [ { "Item": "DustMythic", "Amount": 30 }, 		{ "Item": "GoldBountyToken", "Amount": 40 }, 	{ "Item": "FlametalNew", "Amount": 40 } ],
+      [ { "Item": "DustMythic", "Amount": 50 }, 		{ "Item": "GoldBountyToken", "Amount": 60 }, 	{ "Item": "ThoradusBar_TW", "Amount": 40 } ]
     ],
     "Augment": [
-      [ { "Item": "InfusedCrystal_JH", "Amount": 5 }, 	{ "Item": "FoxPelt_TW", "Amount": 10 },			{ "Item": "Coins", "Amount": 50 } ],
-      [ { "Item": "ForestToken", "Amount": 10 },		{ "Item": "RazorbackTusk_TW", "Amount": 10 },	{ "Item": "Bronze", "Amount": 10 } ],
-      [ { "Item": "ForestToken", "Amount": 20 },		{ "Item": "Chain", "Amount": 10 },				{ "Item": "Iron", "Amount": 10 } ],
-      [ { "Item": "ForestToken", "Amount": 30 },		{ "Item": "WolfClaw", "Amount": 10 },			{ "Item": "Silver", "Amount": 10 } ],
-      [ { "Item": "ForestToken", "Amount": 40 },		{ "Item": "LoxBone_TW", "Amount": 10 },   		{ "Item": "BlackMetal", "Amount": 10 } ],
-      [ { "Item": "ForestToken", "Amount": 50 },		{ "Item": "DarkCrystal_TW", "Amount": 10 },		{ "Item": "Eitr", "Amount": 10 } ],
-      [ { "Item": "ForestToken", "Amount": 60 },		{ "Item": "MorgenHeart", "Amount": 10 },		{ "Item": "ThoradusBar_TW", "Amount": 10 } ]
+      [ { "Item": "InfusedCrystal_JH", "Amount": 10 }, 	{ "Item": "FoxPelt_TW", "Amount": 10 },			{ "Item": "Coins", "Amount": 1000 } ],
+      [ { "Item": "ForestToken", "Amount": 20 },		{ "Item": "RazorbackTusk_TW", "Amount": 10 },	{ "Item": "Bronze", "Amount": 40 } ],
+      [ { "Item": "ForestToken", "Amount": 30 },		{ "Item": "Chain", "Amount": 10 },				{ "Item": "Iron", "Amount": 40 } ],
+      [ { "Item": "ForestToken", "Amount": 40 },		{ "Item": "WolfClaw", "Amount": 10 },			{ "Item": "Silver", "Amount": 40 } ],
+      [ { "Item": "ForestToken", "Amount": 60 },		{ "Item": "LoxBone_TW", "Amount": 10 },   		{ "Item": "BlackMetal", "Amount": 40 } ],
+      [ { "Item": "ForestToken", "Amount": 80 },		{ "Item": "DarkCrystal_TW", "Amount": 10 },		{ "Item": "Eitr", "Amount": 40 } ],
+      [ { "Item": "ForestToken", "Amount": 100 },		{ "Item": "MorgenHeart", "Amount": 10 },		{ "Item": "ThoradusBar_TW", "Amount": 40 } ]
     ],
     "Disenchant": [
       [ { "Item": "InfusedCrystal_JH", "Amount": 5 },	{ "Item": "Coins", "Amount": 500 } ],
