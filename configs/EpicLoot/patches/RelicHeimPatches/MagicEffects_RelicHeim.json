@@ -930,7 +930,7 @@
       "Value": [
           "Legs",
           "Utility",
-		  "Tools"
+          "Shoulder"
         ]
 	},
 	{
@@ -1063,7 +1063,8 @@
       "Action": "Overwrite",
       "Value": [
           "Shoulder",
-          "Utility"
+          "Utility",
+          "Legs"
         ]
 	},
 	{
@@ -1149,7 +1150,7 @@
         "Rare":		{ "MinValue" : 4, "MaxValue" : 6,  "Increment" : 1 },
         "Epic":		{ "MinValue" : 6, "MaxValue" : 8,  "Increment" : 1 },
         "Legendary":	{ "MinValue" : 8, "MaxValue" : 10,  "Increment" : 1 },
-        "Mythic":		{ "MinValue" : 10, "MaxValue" : 14, "Increment" : 1 }
+        "Mythic":		{ "MinValue" : 10, "MaxValue" : 15, "Increment" : 1 }
        }
     },
 	{
@@ -1164,14 +1165,15 @@
       "Action": "Overwrite",
       "Value": [
           "Staff",
-		  "Bows",
-		  "Crossbows",
-		  "Helmet",
+	    "Bows",
+	    "Crossbows",
+	    "Helmet",
           "Chest",
-		  "Shield",
+	    "Shield",
           "Legs",
           "Shoulder",
-          "Utility"
+          "Utility",
+          "Swords"
         ]
 	},
 	{
@@ -1188,7 +1190,9 @@
       "Path": "$.MagicItemEffects[?(@.Type == 'DoubleJump')].Requirements.AllowedItemTypes", 
       "Action": "Overwrite",
       "Value": [
-		  "Legs"
+		  "Legs",
+              "Utility",
+              "Shoulder"
         ]
 	},
 	{
@@ -1818,7 +1822,7 @@
       "Value": [
           "Helmet",
           "Utility",
-		  "Tools"
+          "Shoulder"
         ]
 	},
 	{
@@ -2178,7 +2182,9 @@
       "Path": "$.MagicItemEffects[?(@.Type == 'FeatherFall')].Requirements.AllowedItemTypes", 
       "Action": "Overwrite",
       "Value": [
-          "Shoulder"
+          "Shoulder",
+          "Legs",
+          "Utility"
         ]
 	},
 	{
@@ -2285,8 +2291,8 @@
       "Path": "$.MagicItemEffects[?(@.Type == 'EitrLeech')].ValuesPerRarity", 
       "Action": "Overwrite",
       "Value": {
-        "Rare":			{ "MinValue" : 0.5, "MaxValue" : 2, "Increment" : 0.5 },
-        "Epic":			{ "MinValue" : 1.5, "MaxValue" : 3, "Increment" : 0.5 },
+        "Rare":		{ "MinValue" : 0.5, "MaxValue" : 2, "Increment" : 0.5 },
+        "Epic":		{ "MinValue" : 1.5, "MaxValue" : 3, "Increment" : 0.5 },
         "Legendary":	{ "MinValue" : 2.5, "MaxValue" : 4, "Increment" : 0.5 },
         "Mythic":		{ "MinValue" : 3.5, "MaxValue" : 5, "Increment" : 0.5 }
        }
@@ -2395,7 +2401,7 @@
 	{
       "Path": "$.MagicItemEffects[?(@.Type == 'ModifyDodgeStaminaUse')].SelectionWeight", 
       "Action": "Overwrite",
-      "Value": 0.5
+      "Value": 1
     },
 	
 	
@@ -2403,10 +2409,8 @@
       "Path": "$.MagicItemEffects[?(@.Type == 'Bloodlust')].Requirements.ExcludedSkillTypes", 
       "Action": "AppendAll",
       "Value": [
-		  "Bows",
 		  "ElementalMagic",
-		  "BloodMagic",
-		  "Crossbows"
+		  "BloodMagic"
         ]
 	},
 	
@@ -2424,7 +2428,7 @@
 	{
       "Path": "$.MagicItemEffects[?(@.Type == 'ModifyDrawStaminaUse')].SelectionWeight", 
       "Action": "Overwrite",
-      "Value": 0.5
+      "Value": 1
     },
 	
 	{
@@ -2466,8 +2470,8 @@
       "Action": "Overwrite",
       "Value": {
         "Magic":		{ "MinValue" : 1, "MaxValue" : 5, "Increment" : 1 },
-        "Rare":			{ "MinValue" : 3, "MaxValue" : 10, "Increment" : 1 },
-        "Epic":			{ "MinValue" : 8, "MaxValue" : 15, "Increment" : 1 },
+        "Rare":		{ "MinValue" : 3, "MaxValue" : 10, "Increment" : 1 },
+        "Epic":		{ "MinValue" : 8, "MaxValue" : 15, "Increment" : 1 },
         "Legendary":	{ "MinValue" : 13, "MaxValue" : 20, "Increment" : 1 },
         "Mythic":		{ "MinValue" : 18, "MaxValue" : 25, "Increment" : 1 }
        }
@@ -2482,7 +2486,7 @@
       "Path": "$.MagicItemEffects[?(@.Type == 'IncreaseHeatResistance')].ValuesPerRarity", 
       "Action": "Overwrite",
       "Value": {
-        "Epic":			{ "MinValue" : 10, "MaxValue" : 15, "Increment" : 0.5 },
+        "Epic":		{ "MinValue" : 10, "MaxValue" : 15, "Increment" : 0.5 },
         "Legendary":	{ "MinValue" : 15, "MaxValue" : 20, "Increment" : 0.5 },
         "Mythic":		{ "MinValue" : 20, "MaxValue" : 25, "Increment" : 0.5 }
        }
@@ -2497,8 +2501,8 @@
       "Path": "$.MagicItemEffects[?(@.Type == 'SpellSword')].ValuesPerRarity", 
       "Action": "Overwrite",
       "Value": {
-        "Rare":			{ "MinValue" : 4,  "MaxValue" : 8,  "Increment" : 0.5 },
-        "Epic":			{ "MinValue" : 6,  "MaxValue" : 12, "Increment" : 0.5 },
+        "Rare":		{ "MinValue" : 4,  "MaxValue" : 8,  "Increment" : 0.5 },
+        "Epic":		{ "MinValue" : 6,  "MaxValue" : 12, "Increment" : 0.5 },
         "Legendary":	{ "MinValue" : 8,  "MaxValue" : 16, "Increment" : 0.5 },
         "Mythic":		{ "MinValue" : 10, "MaxValue" : 20, "Increment" : 0.5 }
        }
